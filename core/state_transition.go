@@ -17,14 +17,17 @@
 package core
 
 import (
+	"encoding/hex"
 	"errors"
+	"go-ethereum-timing/log2"
 	"math"
 	"math/big"
+	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
+	"go-ethereum-timing/common"
+	"go-ethereum-timing/core/vm"
+	"go-ethereum-timing/log"
+	"go-ethereum-timing/params"
 )
 
 var (
@@ -205,6 +208,9 @@ func (st *StateTransition) TransitionDb() (ret []byte, usedGas uint64, failed bo
 		// error.
 		vmerr error
 	)
+
+	startTime := time.Now()
+
 	if contractCreation {
 		ret, _, st.gas, vmerr = evm.Create(sender, st.data, st.gas, st.value)
 	} else {
@@ -212,6 +218,17 @@ func (st *StateTransition) TransitionDb() (ret []byte, usedGas uint64, failed bo
 		st.state.SetNonce(msg.From(), st.state.GetNonce(sender.Address())+1)
 		ret, st.gas, vmerr = evm.Call(sender, st.to(), st.data, st.gas, st.value)
 	}
+
+	endTime := time.Now()
+	executionTime := endTime.Sub(startTime)
+	log2.Record(log2.TimingLog{
+		From:              st.msg.From().String(),
+		To:                st.msg.From().String(),
+		TimeCost:          executionTime.Nanoseconds(),
+		DataFirst4ByteHex: hex.EncodeToString(st.msg.Data()[0:4]),
+		Timestamp:         time.Now().Unix(),
+	})
+
 	if vmerr != nil {
 		log.Debug("VM returned with error", "err", vmerr)
 		// The only possible consensus-error would be if there wasn't
