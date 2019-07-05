@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"go-ethereum-timing/log"
+	"geth-timing/log"
 )
 
 // ensureVirtualHost checks whether a reverse-proxy is running on the specified

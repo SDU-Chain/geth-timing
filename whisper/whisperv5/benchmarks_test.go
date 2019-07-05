@@ -19,7 +19,7 @@ package whisperv5
 import (
 	"testing"
 
-	"go-ethereum-timing/crypto"
+	"geth-timing/crypto"
 )
 
 func BenchmarkDeriveKeyMaterial(b *testing.B) {

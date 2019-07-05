@@ -23,9 +23,9 @@ import (
 	"errors"
 	"time"
 
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/p2p/protocols"
-	"go-ethereum-timing/swarm/log"
+	"geth-timing/p2p"
+	"geth-timing/p2p/protocols"
+	"geth-timing/swarm/log"
 )
 
 // Generic ping protocol implementation for

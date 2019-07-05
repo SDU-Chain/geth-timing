@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"sync"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/log"
+	"geth-timing/common"
+	"geth-timing/crypto"
+	"geth-timing/log"
 )
 
 type Filter struct {

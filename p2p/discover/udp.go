@@ -26,11 +26,11 @@ import (
 	"sync"
 	"time"
 
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/p2p/netutil"
-	"go-ethereum-timing/rlp"
+	"geth-timing/crypto"
+	"geth-timing/log"
+	"geth-timing/p2p/enode"
+	"geth-timing/p2p/netutil"
+	"geth-timing/rlp"
 )
 
 // Errors

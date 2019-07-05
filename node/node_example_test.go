@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"log"
 
-	"go-ethereum-timing/node"
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/rpc"
+	"geth-timing/node"
+	"geth-timing/p2p"
+	"geth-timing/rpc"
 )
 
 // SampleService is a trivial network service that can be attached to a node for

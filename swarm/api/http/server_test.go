@@ -37,17 +37,17 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/swarm/storage/feed/lookup"
+	"geth-timing/swarm/storage/feed/lookup"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/swarm/api"
-	swarm "go-ethereum-timing/swarm/api/client"
-	"go-ethereum-timing/swarm/storage"
-	"go-ethereum-timing/swarm/storage/feed"
-	"go-ethereum-timing/swarm/testutil"
+	"geth-timing/common"
+	"geth-timing/core/types"
+	"geth-timing/crypto"
+	"geth-timing/log"
+	"geth-timing/swarm/api"
+	swarm "geth-timing/swarm/api/client"
+	"geth-timing/swarm/storage"
+	"geth-timing/swarm/storage/feed"
+	"geth-timing/swarm/testutil"
 )
 
 func init() {

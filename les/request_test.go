@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/rawdb"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/ethdb"
-	"go-ethereum-timing/light"
+	"geth-timing/common"
+	"geth-timing/core/rawdb"
+	"geth-timing/crypto"
+	"geth-timing/ethdb"
+	"geth-timing/light"
 )
 
 var testBankSecureTrieKey = secAddr(testBankAddress)

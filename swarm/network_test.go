@@ -29,14 +29,14 @@ import (
 	"time"
 
 	colorable "github.com/mattn/go-colorable"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/node"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/p2p/simulations/adapters"
-	"go-ethereum-timing/swarm/api"
-	"go-ethereum-timing/swarm/network/simulation"
-	"go-ethereum-timing/swarm/storage"
+	"geth-timing/crypto"
+	"geth-timing/log"
+	"geth-timing/node"
+	"geth-timing/p2p/enode"
+	"geth-timing/p2p/simulations/adapters"
+	"geth-timing/swarm/api"
+	"geth-timing/swarm/network/simulation"
+	"geth-timing/swarm/storage"
 )
 
 var (

@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "go-ethereum-timing/crypto"
+	ethcrypto "geth-timing/crypto"
 )
 
 var (

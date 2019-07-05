@@ -3,10 +3,10 @@ package simulations
 import (
 	"testing"
 
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/p2p/enr"
-	"go-ethereum-timing/rpc"
+	"geth-timing/p2p"
+	"geth-timing/p2p/enode"
+	"geth-timing/p2p/enr"
+	"geth-timing/rpc"
 )
 
 // NoopService is the service that does not do anything

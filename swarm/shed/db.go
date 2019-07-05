@@ -32,8 +32,8 @@ import (
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/iterator"
 	"github.com/syndtr/goleveldb/leveldb/opt"
-	"go-ethereum-timing/metrics"
-	"go-ethereum-timing/swarm/log"
+	"geth-timing/metrics"
+	"geth-timing/swarm/log"
 )
 
 const (

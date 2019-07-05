@@ -21,8 +21,8 @@ import (
 	"container/heap"
 	"errors"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/rlp"
+	"geth-timing/common"
+	"geth-timing/rlp"
 )
 
 // Iterator is a key-value trie iterator that traverses a Trie.

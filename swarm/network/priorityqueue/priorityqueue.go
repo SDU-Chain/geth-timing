@@ -29,7 +29,7 @@ import (
 	"context"
 	"errors"
 
-	"go-ethereum-timing/log"
+	"geth-timing/log"
 )
 
 var (

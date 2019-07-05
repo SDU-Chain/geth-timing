@@ -24,13 +24,13 @@ import (
 	"sync"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/eth"
-	"go-ethereum-timing/les/flowcontrol"
-	"go-ethereum-timing/light"
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/rlp"
+	"geth-timing/common"
+	"geth-timing/core/types"
+	"geth-timing/eth"
+	"geth-timing/les/flowcontrol"
+	"geth-timing/light"
+	"geth-timing/p2p"
+	"geth-timing/rlp"
 )
 
 var (

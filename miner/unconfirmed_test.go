@@ -19,8 +19,8 @@ package miner
 import (
 	"testing"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/types"
+	"geth-timing/common"
+	"geth-timing/core/types"
 )
 
 // noopChainRetriever is an implementation of headerRetriever that always

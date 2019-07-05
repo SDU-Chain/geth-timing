@@ -21,10 +21,10 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/rlp"
+	"geth-timing/common"
+	"geth-timing/log"
+	"geth-timing/p2p"
+	"geth-timing/rlp"
 )
 
 // Peer represents a whisper protocol peer connection.

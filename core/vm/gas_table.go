@@ -17,9 +17,9 @@
 package vm
 
 import (
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/math"
-	"go-ethereum-timing/params"
+	"geth-timing/common"
+	"geth-timing/common/math"
+	"geth-timing/params"
 )
 
 // memoryGasCosts calculates the quadratic gas for memory expansion. It does so

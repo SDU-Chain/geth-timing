@@ -26,11 +26,11 @@ import (
 	"time"
 
 	colorable "github.com/mattn/go-colorable"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/p2p/protocols"
-	"go-ethereum-timing/p2p/simulations/adapters"
-	"go-ethereum-timing/swarm/state"
+	"geth-timing/log"
+	"geth-timing/p2p"
+	"geth-timing/p2p/protocols"
+	"geth-timing/p2p/simulations/adapters"
+	"geth-timing/swarm/state"
 )
 
 var (

@@ -28,12 +28,12 @@ import (
 	"math/big"
 
 	"github.com/golang/protobuf/proto"
-	"go-ethereum-timing/accounts"
-	"go-ethereum-timing/accounts/usbwallet/internal/trezor"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/hexutil"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/log"
+	"geth-timing/accounts"
+	"geth-timing/accounts/usbwallet/internal/trezor"
+	"geth-timing/common"
+	"geth-timing/common/hexutil"
+	"geth-timing/core/types"
+	"geth-timing/log"
 )
 
 // ErrTrezorPINNeeded is returned if opening the trezor requires a PIN code. In

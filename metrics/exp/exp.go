@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"sync"
 
-	"go-ethereum-timing/metrics"
+	"geth-timing/metrics"
 )
 
 type exp struct {

@@ -23,12 +23,12 @@ import (
 	"sync"
 	"time"
 
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/node"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/p2p/simulations"
-	"go-ethereum-timing/p2p/simulations/adapters"
-	"go-ethereum-timing/swarm/network"
+	"geth-timing/log"
+	"geth-timing/node"
+	"geth-timing/p2p/enode"
+	"geth-timing/p2p/simulations"
+	"geth-timing/p2p/simulations/adapters"
+	"geth-timing/swarm/network"
 )
 
 // Common errors that are returned by functions in this package.

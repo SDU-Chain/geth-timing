@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"testing"
 
-	"go-ethereum-timing/common"
+	"geth-timing/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

@@ -24,9 +24,9 @@ import (
 	"reflect"
 	"testing"
 
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/swarm/storage"
-	"go-ethereum-timing/swarm/storage/feed/lookup"
+	"geth-timing/crypto"
+	"geth-timing/swarm/storage"
+	"geth-timing/swarm/storage/feed/lookup"
 )
 
 func areEqualJSON(s1, s2 string) (bool, error) {

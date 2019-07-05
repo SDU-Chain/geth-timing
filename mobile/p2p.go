@@ -21,7 +21,7 @@ package geth
 import (
 	"errors"
 
-	"go-ethereum-timing/p2p"
+	"geth-timing/p2p"
 )
 
 // NodeInfo represents pi short summary of the information known about the host.

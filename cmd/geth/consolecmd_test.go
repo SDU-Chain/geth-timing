@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/params"
+	"geth-timing/params"
 )
 
 const (

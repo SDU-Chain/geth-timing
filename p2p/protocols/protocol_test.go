@@ -24,12 +24,12 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/rlp"
+	"geth-timing/rlp"
 
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/p2p/simulations/adapters"
-	p2ptest "go-ethereum-timing/p2p/testing"
+	"geth-timing/p2p"
+	"geth-timing/p2p/enode"
+	"geth-timing/p2p/simulations/adapters"
+	p2ptest "geth-timing/p2p/testing"
 )
 
 // handshake message type

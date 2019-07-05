@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/state"
-	"go-ethereum-timing/params"
+	"geth-timing/common"
+	"geth-timing/core/state"
+	"geth-timing/params"
 )
 
 type dummyContractRef struct {

@@ -28,7 +28,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"go-ethereum-timing/log"
+	"geth-timing/log"
 	"golang.org/x/crypto/ssh"
 	"golang.org/x/crypto/ssh/terminal"
 )

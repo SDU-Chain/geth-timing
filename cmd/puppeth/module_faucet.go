@@ -26,8 +26,8 @@ import (
 	"strconv"
 	"strings"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/log"
+	"geth-timing/common"
+	"geth-timing/log"
 )
 
 // faucetDockerfile is the Dockerfile required to build a faucet container to

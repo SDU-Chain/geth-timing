@@ -21,11 +21,11 @@ import (
 	"errors"
 	"fmt"
 
-	"go-ethereum-timing/common/hexutil"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/rpc"
-	"go-ethereum-timing/swarm/log"
+	"geth-timing/common/hexutil"
+	"geth-timing/crypto"
+	"geth-timing/p2p"
+	"geth-timing/rpc"
+	"geth-timing/swarm/log"
 )
 
 // Wrapper for receiving pss messages when using the pss API

@@ -27,8 +27,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/crypto"
+	"geth-timing/common"
+	"geth-timing/crypto"
 )
 
 var jsonEventTransfer = []byte(`{
@@ -356,7 +356,7 @@ func unpackTestEventData(dest interface{}, hexData string, jsonEvent []byte, ass
 
 /*
 Taken from
-https://go-ethereum-timing/pull/15568
+https://github.com/SadPencil/geth-timing/pull/15568
 */
 
 type testResult struct {

@@ -27,17 +27,17 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/node"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/p2p/simulations/adapters"
-	"go-ethereum-timing/swarm/log"
-	"go-ethereum-timing/swarm/network"
-	"go-ethereum-timing/swarm/network/simulation"
-	"go-ethereum-timing/swarm/state"
-	"go-ethereum-timing/swarm/storage"
-	"go-ethereum-timing/swarm/storage/mock"
-	"go-ethereum-timing/swarm/testutil"
+	"geth-timing/common"
+	"geth-timing/node"
+	"geth-timing/p2p/enode"
+	"geth-timing/p2p/simulations/adapters"
+	"geth-timing/swarm/log"
+	"geth-timing/swarm/network"
+	"geth-timing/swarm/network/simulation"
+	"geth-timing/swarm/state"
+	"geth-timing/swarm/storage"
+	"geth-timing/swarm/storage/mock"
+	"geth-timing/swarm/testutil"
 )
 
 const dataChunkCount = 200

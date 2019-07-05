@@ -26,7 +26,7 @@ import (
 	"time"
 
 	"github.com/jackpal/go-nat-pmp"
-	"go-ethereum-timing/log"
+	"geth-timing/log"
 )
 
 // An implementation of nat.Interface can map local ports to ports

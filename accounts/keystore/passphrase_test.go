@@ -20,7 +20,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"go-ethereum-timing/common"
+	"geth-timing/common"
 )
 
 const (

@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"strings"
 
-	"go-ethereum-timing/rlp"
+	"geth-timing/rlp"
 )
 
 // RLPTest is the JSON structure of a single RLP test.

@@ -19,9 +19,9 @@ package rpc
 import (
 	"testing"
 
-	"go-ethereum-timing/rpc"
-	"go-ethereum-timing/swarm/storage/mock/mem"
-	"go-ethereum-timing/swarm/storage/mock/test"
+	"geth-timing/rpc"
+	"geth-timing/swarm/storage/mock/mem"
+	"geth-timing/swarm/storage/mock/test"
 )
 
 // TestDBStore is running test for a GlobalStore

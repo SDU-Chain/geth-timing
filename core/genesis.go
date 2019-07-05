@@ -25,16 +25,16 @@ import (
 	"math/big"
 	"strings"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/hexutil"
-	"go-ethereum-timing/common/math"
-	"go-ethereum-timing/core/rawdb"
-	"go-ethereum-timing/core/state"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/ethdb"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/params"
-	"go-ethereum-timing/rlp"
+	"geth-timing/common"
+	"geth-timing/common/hexutil"
+	"geth-timing/common/math"
+	"geth-timing/core/rawdb"
+	"geth-timing/core/state"
+	"geth-timing/core/types"
+	"geth-timing/ethdb"
+	"geth-timing/log"
+	"geth-timing/params"
+	"geth-timing/rlp"
 )
 
 //go:generate gencodec -type Genesis -field-override genesisSpecMarshaling -out gen_genesis.go

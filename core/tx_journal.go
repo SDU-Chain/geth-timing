@@ -21,10 +21,10 @@ import (
 	"io"
 	"os"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/rlp"
+	"geth-timing/common"
+	"geth-timing/core/types"
+	"geth-timing/log"
+	"geth-timing/rlp"
 )
 
 // errNoActiveJournal is returned if a transaction is attempted to be inserted

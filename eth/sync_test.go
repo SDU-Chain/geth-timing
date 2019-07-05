@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/eth/downloader"
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/p2p/enode"
+	"geth-timing/eth/downloader"
+	"geth-timing/p2p"
+	"geth-timing/p2p/enode"
 )
 
 // Tests that fast sync gets disabled as soon as a real block is successfully

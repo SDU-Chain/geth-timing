@@ -19,9 +19,9 @@ package protocols
 import (
 	"testing"
 
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/p2p/simulations/adapters"
-	"go-ethereum-timing/rlp"
+	"geth-timing/p2p"
+	"geth-timing/p2p/simulations/adapters"
+	"geth-timing/rlp"
 )
 
 //dummy Balance implementation

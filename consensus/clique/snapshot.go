@@ -22,10 +22,10 @@ import (
 	"sort"
 
 	lru "github.com/hashicorp/golang-lru"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/ethdb"
-	"go-ethereum-timing/params"
+	"geth-timing/common"
+	"geth-timing/core/types"
+	"geth-timing/ethdb"
+	"geth-timing/params"
 )
 
 // Vote represents a single vote that an authorized signer made to modify the

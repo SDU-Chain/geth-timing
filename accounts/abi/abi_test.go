@@ -26,8 +26,8 @@ import (
 	"strings"
 	"testing"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/crypto"
+	"geth-timing/common"
+	"geth-timing/crypto"
 )
 
 const jsondata = `

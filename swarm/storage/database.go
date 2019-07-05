@@ -23,7 +23,7 @@ import (
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/iterator"
 	"github.com/syndtr/goleveldb/leveldb/opt"
-	"go-ethereum-timing/metrics"
+	"geth-timing/metrics"
 )
 
 const openFileLimit = 128

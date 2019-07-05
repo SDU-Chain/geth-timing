@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/rlp"
+	"geth-timing/common"
+	"geth-timing/crypto"
+	"geth-timing/rlp"
 )
 
 func TestEIP155Signing(t *testing.T) {

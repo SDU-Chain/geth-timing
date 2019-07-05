@@ -31,16 +31,16 @@ import (
 	"time"
 
 	colorable "github.com/mattn/go-colorable"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/p2p/simulations/adapters"
-	p2ptest "go-ethereum-timing/p2p/testing"
-	"go-ethereum-timing/swarm/network"
-	"go-ethereum-timing/swarm/network/simulation"
-	"go-ethereum-timing/swarm/state"
-	"go-ethereum-timing/swarm/storage"
-	mockmem "go-ethereum-timing/swarm/storage/mock/mem"
-	"go-ethereum-timing/swarm/testutil"
+	"geth-timing/log"
+	"geth-timing/p2p/enode"
+	"geth-timing/p2p/simulations/adapters"
+	p2ptest "geth-timing/p2p/testing"
+	"geth-timing/swarm/network"
+	"geth-timing/swarm/network/simulation"
+	"geth-timing/swarm/state"
+	"geth-timing/swarm/storage"
+	mockmem "geth-timing/swarm/storage/mock/mem"
+	"geth-timing/swarm/testutil"
 )
 
 var (

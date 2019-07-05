@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"go-ethereum-timing/common/hexutil"
+	"geth-timing/common/hexutil"
 )
 
 type MyType [5]byte

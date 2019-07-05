@@ -31,9 +31,9 @@ import (
 	"time"
 
 	"github.com/mattn/go-colorable"
-	"go-ethereum-timing/log"
-	swarmapi "go-ethereum-timing/swarm/api/client"
-	"go-ethereum-timing/swarm/testutil"
+	"geth-timing/log"
+	swarmapi "geth-timing/swarm/api/client"
+	"geth-timing/swarm/testutil"
 )
 
 func init() {

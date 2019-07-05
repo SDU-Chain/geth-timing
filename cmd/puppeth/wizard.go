@@ -31,9 +31,9 @@ import (
 	"strings"
 	"sync"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core"
-	"go-ethereum-timing/log"
+	"geth-timing/common"
+	"geth-timing/core"
+	"geth-timing/log"
 	"golang.org/x/crypto/ssh/terminal"
 )
 

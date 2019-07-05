@@ -27,7 +27,7 @@ import (
 	"path"
 	"strings"
 
-	"go-ethereum-timing/common/math"
+	"geth-timing/common/math"
 	"gopkg.in/urfave/cli.v1"
 )
 

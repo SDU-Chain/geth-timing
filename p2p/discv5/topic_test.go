@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/mclock"
+	"geth-timing/common"
+	"geth-timing/common/mclock"
 )
 
 func TestTopicRadius(t *testing.T) {

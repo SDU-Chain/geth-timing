@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"go-ethereum-timing/common"
+	"geth-timing/common"
 )
 
 const Version = "1.0"

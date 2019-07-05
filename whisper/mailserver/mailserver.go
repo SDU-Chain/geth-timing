@@ -24,11 +24,11 @@ import (
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 	"github.com/syndtr/goleveldb/leveldb/util"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/rlp"
-	whisper "go-ethereum-timing/whisper/whisperv6"
+	"geth-timing/common"
+	"geth-timing/crypto"
+	"geth-timing/log"
+	"geth-timing/rlp"
+	whisper "geth-timing/whisper/whisperv6"
 )
 
 // WMailServer represents the state data of the mailserver.

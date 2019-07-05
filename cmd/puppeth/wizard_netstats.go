@@ -24,8 +24,8 @@ import (
 	"sync"
 
 	"github.com/olekukonko/tablewriter"
-	"go-ethereum-timing/core"
-	"go-ethereum-timing/log"
+	"geth-timing/core"
+	"geth-timing/log"
 )
 
 // networkStats verifies the status of network components and generates a protip

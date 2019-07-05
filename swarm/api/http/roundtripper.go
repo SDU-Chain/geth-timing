@@ -20,17 +20,17 @@ import (
 	"fmt"
 	"net/http"
 
-	"go-ethereum-timing/swarm/log"
+	"geth-timing/swarm/log"
 )
 
 /*
 http roundtripper to register for bzz url scheme
-see https://go-ethereum-timing/issues/2040
+see https://github.com/SadPencil/geth-timing/issues/2040
 Usage:
 
 import (
- "go-ethereum-timing/common/httpclient"
- "go-ethereum-timing/swarm/api/http"
+ "geth-timing/common/httpclient"
+ "geth-timing/swarm/api/http"
 )
 client := httpclient.New()
 // for (private) swarm proxy running locally

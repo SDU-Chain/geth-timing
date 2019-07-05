@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/rpc"
-	mockRPC "go-ethereum-timing/swarm/storage/mock/rpc"
+	"geth-timing/common"
+	"geth-timing/rpc"
+	mockRPC "geth-timing/swarm/storage/mock/rpc"
 )
 
 // TestHTTP_InMemory tests in-memory global store that exposes

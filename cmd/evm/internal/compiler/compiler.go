@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"go-ethereum-timing/core/asm"
+	"geth-timing/core/asm"
 )
 
 func Compile(fn string, src []byte, debug bool) (string, error) {

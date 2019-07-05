@@ -34,7 +34,7 @@ import (
 	"sync"
 	"time"
 
-	"go-ethereum-timing/log"
+	"geth-timing/log"
 )
 
 // Handler is the global debugging handler.

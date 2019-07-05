@@ -30,10 +30,10 @@ import (
 	"testing/quick"
 
 	"github.com/davecgh/go-spew/spew"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/ethdb"
-	"go-ethereum-timing/rlp"
+	"geth-timing/common"
+	"geth-timing/crypto"
+	"geth-timing/ethdb"
+	"geth-timing/rlp"
 )
 
 func init() {

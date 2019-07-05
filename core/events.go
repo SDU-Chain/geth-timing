@@ -17,8 +17,8 @@
 package core
 
 import (
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/types"
+	"geth-timing/common"
+	"geth-timing/core/types"
 )
 
 // NewTxsEvent is posted when a batch of transactions enter the transaction pool.

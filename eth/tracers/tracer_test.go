@@ -24,10 +24,10 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/state"
-	"go-ethereum-timing/core/vm"
-	"go-ethereum-timing/params"
+	"geth-timing/common"
+	"geth-timing/core/state"
+	"geth-timing/core/vm"
+	"geth-timing/params"
 )
 
 type account struct{}

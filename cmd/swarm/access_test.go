@@ -31,12 +31,12 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/crypto/ecies"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/swarm/api"
-	swarmapi "go-ethereum-timing/swarm/api/client"
-	"go-ethereum-timing/swarm/testutil"
+	"geth-timing/crypto"
+	"geth-timing/crypto/ecies"
+	"geth-timing/log"
+	"geth-timing/swarm/api"
+	swarmapi "geth-timing/swarm/api/client"
+	"geth-timing/swarm/testutil"
 	"golang.org/x/crypto/sha3"
 )
 

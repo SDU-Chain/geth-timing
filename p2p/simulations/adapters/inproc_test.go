@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/p2p/simulations/pipes"
+	"geth-timing/p2p/simulations/pipes"
 )
 
 func TestTCPPipe(t *testing.T) {

@@ -21,13 +21,13 @@ import (
 	"fmt"
 	"strings"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/hexutil"
-	"go-ethereum-timing/crypto"
+	"geth-timing/common"
+	"geth-timing/common/hexutil"
+	"geth-timing/crypto"
 
-	"go-ethereum-timing/cmd/utils"
-	swarm "go-ethereum-timing/swarm/api/client"
-	"go-ethereum-timing/swarm/storage/feed"
+	"geth-timing/cmd/utils"
+	swarm "geth-timing/swarm/api/client"
+	"geth-timing/swarm/storage/feed"
 	"gopkg.in/urfave/cli.v1"
 )
 

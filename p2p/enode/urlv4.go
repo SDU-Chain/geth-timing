@@ -26,9 +26,9 @@ import (
 	"regexp"
 	"strconv"
 
-	"go-ethereum-timing/common/math"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/p2p/enr"
+	"geth-timing/common/math"
+	"geth-timing/crypto"
+	"geth-timing/p2p/enr"
 )
 
 var incompleteNodeURL = regexp.MustCompile("(?i)^(?:enode://)?([0-9a-f]+)$")

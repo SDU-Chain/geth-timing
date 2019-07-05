@@ -3,7 +3,7 @@ package feed
 import (
 	"testing"
 
-	"go-ethereum-timing/common/hexutil"
+	"geth-timing/common/hexutil"
 )
 
 func TestTopic(t *testing.T) {

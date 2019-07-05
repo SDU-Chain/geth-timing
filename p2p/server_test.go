@@ -25,10 +25,10 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/p2p/enr"
+	"geth-timing/crypto"
+	"geth-timing/log"
+	"geth-timing/p2p/enode"
+	"geth-timing/p2p/enr"
 	"golang.org/x/crypto/sha3"
 )
 

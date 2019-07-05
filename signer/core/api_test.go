@@ -28,13 +28,13 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/accounts/keystore"
-	"go-ethereum-timing/cmd/utils"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/hexutil"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/internal/ethapi"
-	"go-ethereum-timing/rlp"
+	"geth-timing/accounts/keystore"
+	"geth-timing/cmd/utils"
+	"geth-timing/common"
+	"geth-timing/common/hexutil"
+	"geth-timing/core/types"
+	"geth-timing/internal/ethapi"
+	"geth-timing/rlp"
 )
 
 //Used for testing

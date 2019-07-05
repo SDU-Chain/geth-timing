@@ -26,7 +26,7 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/swarm/testutil"
+	"geth-timing/swarm/testutil"
 	"golang.org/x/crypto/sha3"
 )
 

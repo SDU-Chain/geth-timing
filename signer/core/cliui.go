@@ -25,9 +25,9 @@ import (
 	"sync"
 
 	"github.com/davecgh/go-spew/spew"
-	"go-ethereum-timing/common/hexutil"
-	"go-ethereum-timing/internal/ethapi"
-	"go-ethereum-timing/log"
+	"geth-timing/common/hexutil"
+	"geth-timing/internal/ethapi"
+	"geth-timing/log"
 	"golang.org/x/crypto/ssh/terminal"
 )
 

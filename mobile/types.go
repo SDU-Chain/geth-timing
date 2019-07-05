@@ -23,10 +23,10 @@ import (
 	"errors"
 	"fmt"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/rlp"
-	whisper "go-ethereum-timing/whisper/whisperv6"
+	"geth-timing/common"
+	"geth-timing/core/types"
+	"geth-timing/rlp"
+	whisper "geth-timing/whisper/whisperv6"
 )
 
 // A Nonce is a 64-bit hash which proves (combined with the mix-hash) that

@@ -23,11 +23,11 @@ import (
 	"sync"
 	"time"
 
-	"go-ethereum-timing/common/mclock"
-	"go-ethereum-timing/common/prque"
-	"go-ethereum-timing/ethdb"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/rlp"
+	"geth-timing/common/mclock"
+	"geth-timing/common/prque"
+	"geth-timing/ethdb"
+	"geth-timing/log"
+	"geth-timing/rlp"
 )
 
 // freeClientPool implements a client database that limits the connection time

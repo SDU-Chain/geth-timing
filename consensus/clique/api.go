@@ -17,10 +17,10 @@
 package clique
 
 import (
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/consensus"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/rpc"
+	"geth-timing/common"
+	"geth-timing/consensus"
+	"geth-timing/core/types"
+	"geth-timing/rpc"
 )
 
 // API is a user facing RPC API to allow controlling the signer and voting

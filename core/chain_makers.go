@@ -20,14 +20,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/consensus"
-	"go-ethereum-timing/consensus/misc"
-	"go-ethereum-timing/core/state"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/core/vm"
-	"go-ethereum-timing/ethdb"
-	"go-ethereum-timing/params"
+	"geth-timing/common"
+	"geth-timing/consensus"
+	"geth-timing/consensus/misc"
+	"geth-timing/core/state"
+	"geth-timing/core/types"
+	"geth-timing/core/vm"
+	"geth-timing/ethdb"
+	"geth-timing/params"
 )
 
 // BlockGen creates blocks for testing.

@@ -24,12 +24,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/rawdb"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/ethdb"
-	"go-ethereum-timing/event"
-	"go-ethereum-timing/log"
+	"geth-timing/common"
+	"geth-timing/core/rawdb"
+	"geth-timing/core/types"
+	"geth-timing/ethdb"
+	"geth-timing/event"
+	"geth-timing/log"
 )
 
 // ChainIndexerBackend defines the methods needed to process chain segments in

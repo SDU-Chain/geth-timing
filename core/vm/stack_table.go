@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"go-ethereum-timing/params"
+	"geth-timing/params"
 )
 
 func makeStackFunc(pop, push int) stackValidationFunc {

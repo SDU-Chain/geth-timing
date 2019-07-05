@@ -25,7 +25,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"go-ethereum-timing/log"
+	"geth-timing/log"
 )
 
 /*

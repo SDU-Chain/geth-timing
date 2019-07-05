@@ -22,8 +22,8 @@ import (
 	"regexp"
 	"strings"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/swarm/storage"
+	"geth-timing/common"
+	"geth-timing/swarm/storage"
 )
 
 //matches hex swarm hashes

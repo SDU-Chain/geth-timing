@@ -21,7 +21,7 @@ import (
 	"context"
 	"time"
 
-	"go-ethereum-timing/swarm/storage"
+	"geth-timing/swarm/storage"
 )
 
 const (

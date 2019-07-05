@@ -19,15 +19,15 @@ package core
 import (
 	"encoding/hex"
 	"errors"
-	"go-ethereum-timing/log2"
+	"geth-timing/log2"
 	"math"
 	"math/big"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/vm"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/params"
+	"geth-timing/common"
+	"geth-timing/core/vm"
+	"geth-timing/log"
+	"geth-timing/params"
 )
 
 var (

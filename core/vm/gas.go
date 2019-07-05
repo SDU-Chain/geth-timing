@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"go-ethereum-timing/params"
+	"geth-timing/params"
 )
 
 // Gas costs

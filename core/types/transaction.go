@@ -23,10 +23,10 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/hexutil"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/rlp"
+	"geth-timing/common"
+	"geth-timing/common/hexutil"
+	"geth-timing/crypto"
+	"geth-timing/rlp"
 )
 
 //go:generate gencodec -type txdata -field-override txdataMarshaling -out gen_tx_json.go

@@ -24,12 +24,12 @@ import (
 	"io"
 	"math/big"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core"
-	"go-ethereum-timing/core/rawdb"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/rlp"
+	"geth-timing/common"
+	"geth-timing/core"
+	"geth-timing/core/rawdb"
+	"geth-timing/crypto"
+	"geth-timing/p2p/enode"
+	"geth-timing/rlp"
 )
 
 // Constants to match up protocol versions and messages

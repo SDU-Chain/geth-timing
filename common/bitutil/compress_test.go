@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"go-ethereum-timing/common/hexutil"
+	"geth-timing/common/hexutil"
 )
 
 // Tests that data bitset encoding and decoding works and is bijective.

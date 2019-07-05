@@ -20,11 +20,11 @@ import (
 	"bytes"
 	"fmt"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/ethdb"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/rlp"
+	"geth-timing/common"
+	"geth-timing/crypto"
+	"geth-timing/ethdb"
+	"geth-timing/log"
+	"geth-timing/rlp"
 )
 
 // Prove constructs a merkle proof for key. The result contains all encoded nodes

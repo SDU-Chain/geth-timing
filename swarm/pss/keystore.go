@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"sync"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/metrics"
-	"go-ethereum-timing/swarm/log"
-	whisper "go-ethereum-timing/whisper/whisperv6"
+	"geth-timing/common"
+	"geth-timing/crypto"
+	"geth-timing/metrics"
+	"geth-timing/swarm/log"
+	whisper "geth-timing/whisper/whisperv6"
 )
 
 type KeyStore struct {

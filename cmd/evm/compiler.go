@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"go-ethereum-timing/cmd/evm/internal/compiler"
+	"geth-timing/cmd/evm/internal/compiler"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

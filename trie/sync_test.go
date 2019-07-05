@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/ethdb"
+	"geth-timing/common"
+	"geth-timing/ethdb"
 )
 
 // makeTestTrie create a sample test trie to test node-wise reconstruction.

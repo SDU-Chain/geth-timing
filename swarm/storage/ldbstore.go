@@ -35,10 +35,10 @@ import (
 	"sync"
 
 	"github.com/syndtr/goleveldb/leveldb"
-	"go-ethereum-timing/metrics"
-	"go-ethereum-timing/rlp"
-	"go-ethereum-timing/swarm/log"
-	"go-ethereum-timing/swarm/storage/mock"
+	"geth-timing/metrics"
+	"geth-timing/rlp"
+	"geth-timing/swarm/log"
+	"geth-timing/swarm/storage/mock"
 )
 
 const (

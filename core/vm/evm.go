@@ -21,9 +21,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/params"
+	"geth-timing/common"
+	"geth-timing/crypto"
+	"geth-timing/params"
 )
 
 // emptyCodeHash is used by create to ensure deployment is disallowed to already

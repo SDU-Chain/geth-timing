@@ -23,7 +23,7 @@ import (
 	"os"
 	"testing"
 
-	"go-ethereum-timing/swarm/storage/mock/test"
+	"geth-timing/swarm/storage/mock/test"
 )
 
 // TestDBStore is running a test.MockStore tests

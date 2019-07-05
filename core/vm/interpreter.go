@@ -21,9 +21,9 @@ import (
 	"hash"
 	"sync/atomic"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/math"
-	"go-ethereum-timing/params"
+	"geth-timing/common"
+	"geth-timing/common/math"
+	"geth-timing/params"
 )
 
 // Config are the configuration options for the Interpreter

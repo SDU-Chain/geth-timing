@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/common"
+	"geth-timing/common"
 )
 
 type testInPayment struct {

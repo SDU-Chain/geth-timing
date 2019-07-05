@@ -28,15 +28,15 @@ import (
 	"time"
 
 	colorable "github.com/mattn/go-colorable"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/node"
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/p2p/simulations"
-	"go-ethereum-timing/p2p/simulations/adapters"
-	"go-ethereum-timing/swarm/network"
-	"go-ethereum-timing/swarm/state"
+	"geth-timing/common"
+	"geth-timing/log"
+	"geth-timing/node"
+	"geth-timing/p2p"
+	"geth-timing/p2p/enode"
+	"geth-timing/p2p/simulations"
+	"geth-timing/p2p/simulations/adapters"
+	"geth-timing/swarm/network"
+	"geth-timing/swarm/state"
 )
 
 // serviceName is used with the exec adapter so the exec'd binary knows which

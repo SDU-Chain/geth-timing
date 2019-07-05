@@ -19,9 +19,9 @@ package misc
 import (
 	"fmt"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/params"
+	"geth-timing/common"
+	"geth-timing/core/types"
+	"geth-timing/params"
 )
 
 // VerifyForkHashes verifies that blocks conforming to network hard-forks do have

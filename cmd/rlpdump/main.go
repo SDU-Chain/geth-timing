@@ -26,7 +26,7 @@ import (
 	"os"
 	"strings"
 
-	"go-ethereum-timing/rlp"
+	"geth-timing/rlp"
 )
 
 var (

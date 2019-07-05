@@ -19,7 +19,7 @@ package params
 import (
 	"math/big"
 
-	"go-ethereum-timing/common"
+	"geth-timing/common"
 )
 
 // DAOForkBlockExtra is the block header extra-data field to set for the DAO fork

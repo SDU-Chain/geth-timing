@@ -21,11 +21,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/eth/downloader"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/p2p/enode"
+	"geth-timing/common"
+	"geth-timing/core/types"
+	"geth-timing/eth/downloader"
+	"geth-timing/log"
+	"geth-timing/p2p/enode"
 )
 
 const (

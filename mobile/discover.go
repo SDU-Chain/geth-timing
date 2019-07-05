@@ -22,7 +22,7 @@ package geth
 import (
 	"errors"
 
-	"go-ethereum-timing/p2p/discv5"
+	"geth-timing/p2p/discv5"
 )
 
 // Enode represents a host on the network.

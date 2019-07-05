@@ -33,15 +33,15 @@ import (
 	"time"
 
 	"github.com/docker/docker/pkg/reexec"
-	"go-ethereum-timing/accounts"
-	"go-ethereum-timing/accounts/keystore"
-	"go-ethereum-timing/internal/cmdtest"
-	"go-ethereum-timing/node"
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/rpc"
-	"go-ethereum-timing/swarm"
-	"go-ethereum-timing/swarm/api"
-	swarmhttp "go-ethereum-timing/swarm/api/http"
+	"geth-timing/accounts"
+	"geth-timing/accounts/keystore"
+	"geth-timing/internal/cmdtest"
+	"geth-timing/node"
+	"geth-timing/p2p"
+	"geth-timing/rpc"
+	"geth-timing/swarm"
+	"geth-timing/swarm/api"
+	swarmhttp "geth-timing/swarm/api/http"
 )
 
 var loglevel = flag.Int("loglevel", 3, "verbosity of logs")

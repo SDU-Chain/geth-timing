@@ -23,10 +23,10 @@ import (
 	"errors"
 	"time"
 
-	"go-ethereum-timing/accounts"
-	"go-ethereum-timing/accounts/keystore"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/crypto"
+	"geth-timing/accounts"
+	"geth-timing/accounts/keystore"
+	"geth-timing/common"
+	"geth-timing/crypto"
 )
 
 const (

@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"go-ethereum-timing/accounts/keystore"
-	"go-ethereum-timing/cmd/utils"
-	"go-ethereum-timing/crypto"
+	"geth-timing/accounts/keystore"
+	"geth-timing/cmd/utils"
+	"geth-timing/crypto"
 	"gopkg.in/urfave/cli.v1"
 )
 

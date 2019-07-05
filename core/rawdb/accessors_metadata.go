@@ -19,10 +19,10 @@ package rawdb
 import (
 	"encoding/json"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/params"
-	"go-ethereum-timing/rlp"
+	"geth-timing/common"
+	"geth-timing/log"
+	"geth-timing/params"
+	"geth-timing/rlp"
 )
 
 // ReadDatabaseVersion retrieves the version number of the database.

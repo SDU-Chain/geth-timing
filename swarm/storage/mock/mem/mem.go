@@ -27,8 +27,8 @@ import (
 	"io/ioutil"
 	"sync"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/swarm/storage/mock"
+	"geth-timing/common"
+	"geth-timing/swarm/storage/mock"
 )
 
 // GlobalStore stores all chunk data and also keys and node addresses relations.

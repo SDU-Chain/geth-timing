@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	ethereum "go-ethereum-timing"
-	"go-ethereum-timing/event"
-	"go-ethereum-timing/rpc"
+	ethereum "geth-timing"
+	"geth-timing/event"
+	"geth-timing/rpc"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.

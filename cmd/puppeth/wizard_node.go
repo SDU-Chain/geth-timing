@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"go-ethereum-timing/accounts/keystore"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/log"
+	"geth-timing/accounts/keystore"
+	"geth-timing/common"
+	"geth-timing/log"
 )
 
 // deployNode creates a new node configuration based on some user input.

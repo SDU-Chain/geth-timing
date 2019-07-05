@@ -18,7 +18,7 @@ package shed
 
 import (
 	"github.com/syndtr/goleveldb/leveldb"
-	"go-ethereum-timing/rlp"
+	"geth-timing/rlp"
 )
 
 // StructField is a helper to store complex structure by

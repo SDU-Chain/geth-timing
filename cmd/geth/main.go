@@ -19,7 +19,7 @@ package main
 
 import (
 	"fmt"
-	"go-ethereum-timing/log2"
+	"geth-timing/log2"
 	"math"
 	"os"
 	godebug "runtime/debug"
@@ -29,16 +29,16 @@ import (
 	"time"
 
 	"github.com/elastic/gosigar"
-	"go-ethereum-timing/accounts"
-	"go-ethereum-timing/accounts/keystore"
-	"go-ethereum-timing/cmd/utils"
-	"go-ethereum-timing/console"
-	"go-ethereum-timing/eth"
-	"go-ethereum-timing/ethclient"
-	"go-ethereum-timing/internal/debug"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/metrics"
-	"go-ethereum-timing/node"
+	"geth-timing/accounts"
+	"geth-timing/accounts/keystore"
+	"geth-timing/cmd/utils"
+	"geth-timing/console"
+	"geth-timing/eth"
+	"geth-timing/ethclient"
+	"geth-timing/internal/debug"
+	"geth-timing/log"
+	"geth-timing/metrics"
+	"geth-timing/node"
 	"gopkg.in/urfave/cli.v1"
 )
 

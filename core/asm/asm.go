@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"go-ethereum-timing/core/vm"
+	"geth-timing/core/vm"
 )
 
 // Iterator for disassembled EVM instructions

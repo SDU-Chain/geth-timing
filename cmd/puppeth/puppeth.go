@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	"go-ethereum-timing/log"
+	"geth-timing/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

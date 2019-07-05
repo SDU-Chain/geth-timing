@@ -19,10 +19,10 @@ package core
 import (
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/mclock"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/log"
+	"geth-timing/common"
+	"geth-timing/common/mclock"
+	"geth-timing/core/types"
+	"geth-timing/log"
 )
 
 // insertStats tracks and reports on block insertion.

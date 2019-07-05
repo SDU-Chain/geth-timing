@@ -20,7 +20,7 @@ import (
 	"context"
 	"path"
 
-	"go-ethereum-timing/swarm/storage"
+	"geth-timing/swarm/storage"
 )
 
 type Response struct {

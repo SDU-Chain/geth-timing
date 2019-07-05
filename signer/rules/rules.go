@@ -23,12 +23,12 @@ import (
 	"strings"
 
 	"github.com/robertkrimen/otto"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/internal/ethapi"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/signer/core"
-	"go-ethereum-timing/signer/rules/deps"
-	"go-ethereum-timing/signer/storage"
+	"geth-timing/common"
+	"geth-timing/internal/ethapi"
+	"geth-timing/log"
+	"geth-timing/signer/core"
+	"geth-timing/signer/rules/deps"
+	"geth-timing/signer/storage"
 )
 
 var (

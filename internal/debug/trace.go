@@ -23,7 +23,7 @@ import (
 	"os"
 	"runtime/trace"
 
-	"go-ethereum-timing/log"
+	"geth-timing/log"
 )
 
 // StartGoTrace turns on tracing, writing to the given file.

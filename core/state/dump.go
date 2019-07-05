@@ -20,9 +20,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/rlp"
-	"go-ethereum-timing/trie"
+	"geth-timing/common"
+	"geth-timing/rlp"
+	"geth-timing/trie"
 )
 
 type DumpAccount struct {

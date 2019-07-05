@@ -36,14 +36,14 @@ import (
 	"sync"
 	"time"
 
-	"go-ethereum-timing/accounts/abi/bind"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/hexutil"
-	"go-ethereum-timing/contracts/chequebook/contract"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/swarm/services/swap/swap"
+	"geth-timing/accounts/abi/bind"
+	"geth-timing/common"
+	"geth-timing/common/hexutil"
+	"geth-timing/contracts/chequebook/contract"
+	"geth-timing/core/types"
+	"geth-timing/crypto"
+	"geth-timing/log"
+	"geth-timing/swarm/services/swap/swap"
 )
 
 // TODO(zelig): watch peer solvency and notify of bouncing cheques

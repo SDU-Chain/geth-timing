@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"go-ethereum-timing/log"
+	"geth-timing/log"
 )
 
 // deployEthstats queries the user for various input on deploying an ethstats

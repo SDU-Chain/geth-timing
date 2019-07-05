@@ -25,7 +25,7 @@ import (
 	"strings"
 	"testing"
 
-	"go-ethereum-timing/swarm/storage"
+	"geth-timing/swarm/storage"
 )
 
 func manifest(paths ...string) (manifestReader storage.LazySectionReader) {

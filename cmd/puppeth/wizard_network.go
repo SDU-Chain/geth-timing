@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"go-ethereum-timing/log"
+	"geth-timing/log"
 )
 
 // manageServers displays a list of servers the user can disconnect from, and an

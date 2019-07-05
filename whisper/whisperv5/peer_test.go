@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/p2p/nat"
+	"geth-timing/common"
+	"geth-timing/crypto"
+	"geth-timing/p2p"
+	"geth-timing/p2p/enode"
+	"geth-timing/p2p/nat"
 )
 
 var keys = []string{

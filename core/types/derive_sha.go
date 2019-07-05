@@ -19,9 +19,9 @@ package types
 import (
 	"bytes"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/rlp"
-	"go-ethereum-timing/trie"
+	"geth-timing/common"
+	"geth-timing/rlp"
+	"geth-timing/trie"
 )
 
 type DerivableList interface {

@@ -19,7 +19,7 @@ package rpc
 import (
 	"net"
 
-	"go-ethereum-timing/log"
+	"geth-timing/log"
 )
 
 // StartHTTPEndpoint starts the HTTP RPC endpoint, configured with cors/vhosts/modules

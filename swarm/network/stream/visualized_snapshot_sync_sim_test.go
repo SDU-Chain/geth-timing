@@ -28,17 +28,17 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/node"
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/p2p/protocols"
-	"go-ethereum-timing/p2p/simulations"
-	"go-ethereum-timing/p2p/simulations/adapters"
-	"go-ethereum-timing/rlp"
-	"go-ethereum-timing/swarm/log"
-	"go-ethereum-timing/swarm/network/simulation"
-	"go-ethereum-timing/swarm/state"
-	"go-ethereum-timing/swarm/storage"
+	"geth-timing/node"
+	"geth-timing/p2p"
+	"geth-timing/p2p/enode"
+	"geth-timing/p2p/protocols"
+	"geth-timing/p2p/simulations"
+	"geth-timing/p2p/simulations/adapters"
+	"geth-timing/rlp"
+	"geth-timing/swarm/log"
+	"geth-timing/swarm/network/simulation"
+	"geth-timing/swarm/state"
+	"geth-timing/swarm/storage"
 )
 
 /*

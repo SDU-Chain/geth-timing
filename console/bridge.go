@@ -24,9 +24,9 @@ import (
 	"time"
 
 	"github.com/robertkrimen/otto"
-	"go-ethereum-timing/accounts/usbwallet"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/rpc"
+	"geth-timing/accounts/usbwallet"
+	"geth-timing/log"
+	"geth-timing/rpc"
 )
 
 // bridge is a collection of JavaScript utility methods to bride the .js runtime

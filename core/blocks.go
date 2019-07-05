@@ -16,7 +16,7 @@
 
 package core
 
-import "go-ethereum-timing/common"
+import "geth-timing/common"
 
 // BadHashes represent a set of manually tracked bad hashes (usually hard forks)
 var BadHashes = map[common.Hash]bool{

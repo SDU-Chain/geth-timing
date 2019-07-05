@@ -21,11 +21,11 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/consensus/ethash"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/core/vm"
-	"go-ethereum-timing/ethdb"
-	"go-ethereum-timing/params"
+	"geth-timing/consensus/ethash"
+	"geth-timing/core/types"
+	"geth-timing/core/vm"
+	"geth-timing/ethdb"
+	"geth-timing/params"
 )
 
 // Tests that simple header verification works, for both good and bad blocks.

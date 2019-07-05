@@ -21,11 +21,11 @@ import (
 
 	"encoding/json"
 
-	"go-ethereum-timing/accounts"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/hexutil"
-	"go-ethereum-timing/internal/ethapi"
-	"go-ethereum-timing/log"
+	"geth-timing/accounts"
+	"geth-timing/common"
+	"geth-timing/common/hexutil"
+	"geth-timing/internal/ethapi"
+	"geth-timing/log"
 )
 
 type AuditLogger struct {

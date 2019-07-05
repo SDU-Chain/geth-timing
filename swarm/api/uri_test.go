@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"go-ethereum-timing/swarm/storage"
+	"geth-timing/swarm/storage"
 )
 
 func TestParseURI(t *testing.T) {

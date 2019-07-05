@@ -28,7 +28,7 @@ import (
 
 	"github.com/mohae/deepcopy"
 	"github.com/rjeczalik/notify"
-	"go-ethereum-timing/log"
+	"geth-timing/log"
 )
 
 var emptyChunk = json.RawMessage("[]")

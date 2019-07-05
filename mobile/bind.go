@@ -22,10 +22,10 @@ import (
 	"math/big"
 	"strings"
 
-	"go-ethereum-timing/accounts/abi"
-	"go-ethereum-timing/accounts/abi/bind"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/types"
+	"geth-timing/accounts/abi"
+	"geth-timing/accounts/abi/bind"
+	"geth-timing/common"
+	"geth-timing/core/types"
 )
 
 // Signer is an interaface defining the callback when a contract requires a

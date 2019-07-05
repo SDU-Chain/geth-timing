@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"go-ethereum-timing/event"
+	"geth-timing/event"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of

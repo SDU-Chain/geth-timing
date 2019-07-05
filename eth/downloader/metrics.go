@@ -19,7 +19,7 @@
 package downloader
 
 import (
-	"go-ethereum-timing/metrics"
+	"geth-timing/metrics"
 )
 
 var (

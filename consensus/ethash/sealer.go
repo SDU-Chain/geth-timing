@@ -29,11 +29,11 @@ import (
 	"sync"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/hexutil"
-	"go-ethereum-timing/consensus"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/log"
+	"geth-timing/common"
+	"geth-timing/common/hexutil"
+	"geth-timing/consensus"
+	"geth-timing/core/types"
+	"geth-timing/log"
 )
 
 const (

@@ -19,8 +19,8 @@
 package whisperv5
 
 import (
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/hexutil"
+	"geth-timing/common"
+	"geth-timing/common/hexutil"
 )
 
 // TopicType represents a cryptographically secure, probabilistic partial

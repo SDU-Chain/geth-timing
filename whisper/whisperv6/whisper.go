@@ -28,12 +28,12 @@ import (
 
 	mapset "github.com/deckarep/golang-set"
 	"github.com/syndtr/goleveldb/leveldb/errors"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/rlp"
-	"go-ethereum-timing/rpc"
+	"geth-timing/common"
+	"geth-timing/crypto"
+	"geth-timing/log"
+	"geth-timing/p2p"
+	"geth-timing/rlp"
+	"geth-timing/rpc"
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/sync/syncmap"
 )

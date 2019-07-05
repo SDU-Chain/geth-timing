@@ -27,11 +27,11 @@ import (
 	"strings"
 	"time"
 
-	"go-ethereum-timing/swarm/storage/feed"
+	"geth-timing/swarm/storage/feed"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/swarm/log"
-	"go-ethereum-timing/swarm/storage"
+	"geth-timing/common"
+	"geth-timing/swarm/log"
+	"geth-timing/swarm/storage"
 )
 
 const (

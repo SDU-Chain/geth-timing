@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"go-ethereum-timing/common/math"
+	"geth-timing/common/math"
 )
 
 // Memory implements a simple memory model for the ethereum virtual machine.

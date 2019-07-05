@@ -26,10 +26,10 @@ package rpc
 import (
 	"fmt"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/rpc"
-	"go-ethereum-timing/swarm/log"
-	"go-ethereum-timing/swarm/storage/mock"
+	"geth-timing/common"
+	"geth-timing/rpc"
+	"geth-timing/swarm/log"
+	"geth-timing/swarm/storage/mock"
 )
 
 // GlobalStore is rpc.Client that connects to a centralized mock store.

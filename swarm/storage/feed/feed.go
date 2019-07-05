@@ -20,9 +20,9 @@ import (
 	"hash"
 	"unsafe"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/hexutil"
-	"go-ethereum-timing/swarm/storage"
+	"geth-timing/common"
+	"geth-timing/common/hexutil"
+	"geth-timing/swarm/storage"
 )
 
 // Feed represents a particular user's stream of updates on a topic

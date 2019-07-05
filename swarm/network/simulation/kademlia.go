@@ -21,10 +21,10 @@ import (
 	"encoding/hex"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/swarm/network"
+	"geth-timing/common"
+	"geth-timing/log"
+	"geth-timing/p2p/enode"
+	"geth-timing/swarm/network"
 )
 
 // BucketKeyKademlia is the key to be used for storing the kademlia

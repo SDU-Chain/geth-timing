@@ -16,7 +16,7 @@
 
 package bind
 
-import "go-ethereum-timing/accounts/abi"
+import "geth-timing/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {
@@ -68,12 +68,12 @@ import (
 	"math/big"
 	"strings"
 
-	ethereum "go-ethereum-timing"
-	"go-ethereum-timing/accounts/abi"
-	"go-ethereum-timing/accounts/abi/bind"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/event"
+	ethereum "geth-timing"
+	"geth-timing/accounts/abi"
+	"geth-timing/accounts/abi/bind"
+	"geth-timing/common"
+	"geth-timing/core/types"
+	"geth-timing/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

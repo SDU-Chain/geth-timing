@@ -25,14 +25,14 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/math"
-	"go-ethereum-timing/consensus"
-	"go-ethereum-timing/consensus/misc"
-	"go-ethereum-timing/core/state"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/params"
-	"go-ethereum-timing/rlp"
+	"geth-timing/common"
+	"geth-timing/common/math"
+	"geth-timing/consensus"
+	"geth-timing/consensus/misc"
+	"geth-timing/core/state"
+	"geth-timing/core/types"
+	"geth-timing/params"
+	"geth-timing/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

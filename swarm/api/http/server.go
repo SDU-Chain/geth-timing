@@ -36,12 +36,12 @@ import (
 	"time"
 
 	"github.com/rs/cors"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/metrics"
-	"go-ethereum-timing/swarm/api"
-	"go-ethereum-timing/swarm/log"
-	"go-ethereum-timing/swarm/storage"
-	"go-ethereum-timing/swarm/storage/feed"
+	"geth-timing/common"
+	"geth-timing/metrics"
+	"geth-timing/swarm/api"
+	"geth-timing/swarm/log"
+	"geth-timing/swarm/storage"
+	"geth-timing/swarm/storage/feed"
 )
 
 var (

@@ -11,10 +11,10 @@ fi
 workspace="$PWD/build/_workspace"
 root="$PWD"
 ethdir="$workspace/src"
-if [ ! -L "$ethdir/go-ethereum-timing" ]; then
+if [ ! -L "$ethdir/geth-timing" ]; then
     mkdir -p "$ethdir"
     cd "$ethdir"
-    ln -s ../../../. go-ethereum-timing
+    ln -s ../../../. geth-timing
     cd "$root"
 fi
 
@@ -23,8 +23,8 @@ GOPATH="$workspace"
 export GOPATH
 
 # Run the command inside the workspace.
-cd "$ethdir/go-ethereum-timing"
-PWD="$ethdir/go-ethereum-timing"
+cd "$ethdir/geth-timing"
+PWD="$ethdir/geth-timing"
 
 # Launch the arguments with the configured environment.
 exec "$@"

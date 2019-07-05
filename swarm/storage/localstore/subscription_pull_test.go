@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/swarm/storage"
+	"geth-timing/swarm/storage"
 )
 
 // TestDB_SubscribePull uploads some chunks before and after

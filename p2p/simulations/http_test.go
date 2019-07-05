@@ -29,13 +29,13 @@ import (
 	"time"
 
 	"github.com/mattn/go-colorable"
-	"go-ethereum-timing/event"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/node"
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/p2p/simulations/adapters"
-	"go-ethereum-timing/rpc"
+	"geth-timing/event"
+	"geth-timing/log"
+	"geth-timing/node"
+	"geth-timing/p2p"
+	"geth-timing/p2p/enode"
+	"geth-timing/p2p/simulations/adapters"
+	"geth-timing/rpc"
 )
 
 var (

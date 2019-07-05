@@ -27,8 +27,8 @@ import (
 	"strings"
 	"testing"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/crypto"
+	"geth-timing/common"
+	"geth-timing/crypto"
 )
 
 func tmpKeyStoreIface(t *testing.T, encrypted bool) (dir string, ks keyStore) {

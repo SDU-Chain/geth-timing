@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/swarm/log"
+	"geth-timing/swarm/log"
 )
 
 // asymmetrical key exchange between two directly connected peers

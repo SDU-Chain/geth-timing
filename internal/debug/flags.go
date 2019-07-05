@@ -27,9 +27,9 @@ import (
 	"github.com/fjl/memsize/memsizeui"
 	colorable "github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/metrics"
-	"go-ethereum-timing/metrics/exp"
+	"geth-timing/log"
+	"geth-timing/metrics"
+	"geth-timing/metrics/exp"
 	"gopkg.in/urfave/cli.v1"
 )
 

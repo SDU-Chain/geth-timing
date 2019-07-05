@@ -23,12 +23,12 @@ import (
 	"math/big"
 	"strings"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/hexutil"
-	math2 "go-ethereum-timing/common/math"
-	"go-ethereum-timing/consensus/ethash"
-	"go-ethereum-timing/core"
-	"go-ethereum-timing/params"
+	"geth-timing/common"
+	"geth-timing/common/hexutil"
+	math2 "geth-timing/common/math"
+	"geth-timing/consensus/ethash"
+	"geth-timing/core"
+	"geth-timing/params"
 )
 
 // alethGenesisSpec represents the genesis specification format used by the

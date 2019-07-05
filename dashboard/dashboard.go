@@ -36,11 +36,11 @@ import (
 
 	"github.com/elastic/gosigar"
 	"github.com/mohae/deepcopy"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/metrics"
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/params"
-	"go-ethereum-timing/rpc"
+	"geth-timing/log"
+	"geth-timing/metrics"
+	"geth-timing/p2p"
+	"geth-timing/params"
+	"geth-timing/rpc"
 	"golang.org/x/net/websocket"
 )
 

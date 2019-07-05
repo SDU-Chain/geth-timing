@@ -28,9 +28,9 @@ import (
 	"math/big"
 	"os"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/math"
-	"go-ethereum-timing/rlp"
+	"geth-timing/common"
+	"geth-timing/common/math"
+	"geth-timing/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

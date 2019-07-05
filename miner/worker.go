@@ -25,15 +25,15 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/consensus"
-	"go-ethereum-timing/consensus/misc"
-	"go-ethereum-timing/core"
-	"go-ethereum-timing/core/state"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/event"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/params"
+	"geth-timing/common"
+	"geth-timing/consensus"
+	"geth-timing/consensus/misc"
+	"geth-timing/core"
+	"geth-timing/core/state"
+	"geth-timing/core/types"
+	"geth-timing/event"
+	"geth-timing/log"
+	"geth-timing/params"
 )
 
 const (

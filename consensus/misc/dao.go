@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	"go-ethereum-timing/core/state"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/params"
+	"geth-timing/core/state"
+	"geth-timing/core/types"
+	"geth-timing/params"
 )
 
 var (

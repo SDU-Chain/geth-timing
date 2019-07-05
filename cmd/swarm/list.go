@@ -22,8 +22,8 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"go-ethereum-timing/cmd/utils"
-	swarm "go-ethereum-timing/swarm/api/client"
+	"geth-timing/cmd/utils"
+	swarm "geth-timing/swarm/api/client"
 	"gopkg.in/urfave/cli.v1"
 )
 

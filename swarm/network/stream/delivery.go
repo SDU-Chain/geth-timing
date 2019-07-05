@@ -22,12 +22,12 @@ import (
 	"fmt"
 
 	opentracing "github.com/opentracing/opentracing-go"
-	"go-ethereum-timing/metrics"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/swarm/log"
-	"go-ethereum-timing/swarm/network"
-	"go-ethereum-timing/swarm/spancontext"
-	"go-ethereum-timing/swarm/storage"
+	"geth-timing/metrics"
+	"geth-timing/p2p/enode"
+	"geth-timing/swarm/log"
+	"geth-timing/swarm/network"
+	"geth-timing/swarm/spancontext"
+	"geth-timing/swarm/storage"
 )
 
 const (

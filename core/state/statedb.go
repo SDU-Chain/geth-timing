@@ -23,12 +23,12 @@ import (
 	"math/big"
 	"sort"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/rlp"
-	"go-ethereum-timing/trie"
+	"geth-timing/common"
+	"geth-timing/core/types"
+	"geth-timing/crypto"
+	"geth-timing/log"
+	"geth-timing/rlp"
+	"geth-timing/trie"
 )
 
 type revision struct {
@@ -507,7 +507,7 @@ func (self *StateDB) Copy() *StateDB {
 	}
 	// Copy the dirty states, logs, and preimages
 	for addr := range self.journal.dirties {
-		// As documented [here](https://go-ethereum-timing/pull/16485#issuecomment-380438527),
+		// As documented [here](https://github.com/SadPencil/geth-timing/pull/16485#issuecomment-380438527),
 		// and in the Finalise-method, there is a case where an object is in the journal but not
 		// in the stateObjects: OOG after touch on ripeMD prior to Byzantium. Thus, we need to check for
 		// nil

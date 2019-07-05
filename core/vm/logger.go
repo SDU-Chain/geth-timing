@@ -23,10 +23,10 @@ import (
 	"math/big"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/hexutil"
-	"go-ethereum-timing/common/math"
-	"go-ethereum-timing/core/types"
+	"geth-timing/common"
+	"geth-timing/common/hexutil"
+	"geth-timing/common/math"
+	"geth-timing/core/types"
 )
 
 // Storage represents a contract's storage.

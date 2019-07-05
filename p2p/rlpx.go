@@ -36,11 +36,11 @@ import (
 	"time"
 
 	"github.com/golang/snappy"
-	"go-ethereum-timing/common/bitutil"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/crypto/ecies"
-	"go-ethereum-timing/crypto/secp256k1"
-	"go-ethereum-timing/rlp"
+	"geth-timing/common/bitutil"
+	"geth-timing/crypto"
+	"geth-timing/crypto/ecies"
+	"geth-timing/crypto/secp256k1"
+	"geth-timing/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

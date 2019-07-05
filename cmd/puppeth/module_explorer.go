@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"go-ethereum-timing/log"
+	"geth-timing/log"
 )
 
 // explorerDockerfile is the Dockerfile required to run a block explorer.

@@ -3,7 +3,7 @@ package feed
 import (
 	"testing"
 
-	"go-ethereum-timing/swarm/storage/feed/lookup"
+	"geth-timing/swarm/storage/feed/lookup"
 )
 
 func getTestID() *ID {

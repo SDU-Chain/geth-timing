@@ -30,10 +30,10 @@ import (
 	"testing"
 
 	colorable "github.com/mattn/go-colorable"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/swarm/api"
-	"go-ethereum-timing/swarm/storage"
-	"go-ethereum-timing/swarm/testutil"
+	"geth-timing/log"
+	"geth-timing/swarm/api"
+	"geth-timing/swarm/storage"
+	"geth-timing/swarm/testutil"
 )
 
 var (

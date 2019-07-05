@@ -19,9 +19,9 @@ package simulations
 import (
 	"testing"
 
-	"go-ethereum-timing/node"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/p2p/simulations/adapters"
+	"geth-timing/node"
+	"geth-timing/p2p/enode"
+	"geth-timing/p2p/simulations/adapters"
 )
 
 func newTestNetwork(t *testing.T, nodeCount int) (*Network, []enode.ID) {

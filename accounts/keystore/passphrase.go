@@ -39,9 +39,9 @@ import (
 	"path/filepath"
 
 	"github.com/pborman/uuid"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/math"
-	"go-ethereum-timing/crypto"
+	"geth-timing/common"
+	"geth-timing/common/math"
+	"geth-timing/crypto"
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/crypto/scrypt"
 )
@@ -120,7 +120,7 @@ func (ks keyStorePassphrase) StoreKey(filename string, key *Key, auth string) er
 				"This indicates that the keystore is corrupted. \n" +
 				"The corrupted file is stored at \n%v\n" +
 				"Please file a ticket at:\n\n" +
-				"https://go-ethereum-timing/issues." +
+				"https://github.com/SadPencil/geth-timing/issues." +
 				"The error was : %s"
 			return fmt.Errorf(msg, tmpName, err)
 		}

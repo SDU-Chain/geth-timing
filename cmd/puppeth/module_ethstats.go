@@ -25,7 +25,7 @@ import (
 	"strings"
 	"text/template"
 
-	"go-ethereum-timing/log"
+	"geth-timing/log"
 )
 
 // ethstatsDockerfile is the Dockerfile required to build an ethstats backend

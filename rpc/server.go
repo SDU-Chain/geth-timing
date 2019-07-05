@@ -26,7 +26,7 @@ import (
 	"sync/atomic"
 
 	mapset "github.com/deckarep/golang-set"
-	"go-ethereum-timing/log"
+	"geth-timing/log"
 )
 
 const MetadataApi = "rpc"

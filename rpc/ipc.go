@@ -20,8 +20,8 @@ import (
 	"context"
 	"net"
 
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/p2p/netutil"
+	"geth-timing/log"
+	"geth-timing/p2p/netutil"
 )
 
 // ServeListener accepts connections on l, serving JSON-RPC on them.

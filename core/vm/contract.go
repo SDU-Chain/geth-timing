@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"go-ethereum-timing/common"
+	"geth-timing/common"
 )
 
 // ContractRef is a reference to the contract's backing object

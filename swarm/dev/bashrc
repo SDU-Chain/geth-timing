@@ -1,4 +1,4 @@
-export ROOT="${GOPATH}/src/go-ethereum-timing"
+export ROOT="${GOPATH}/src/geth-timing"
 export PATH="${ROOT}/swarm/dev/bin:${PATH}"
 
 cd "${ROOT}/swarm/dev"

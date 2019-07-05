@@ -26,11 +26,11 @@ import (
 	"time"
 
 	"github.com/karalabe/hid"
-	ethereum "go-ethereum-timing"
-	"go-ethereum-timing/accounts"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/log"
+	ethereum "geth-timing"
+	"geth-timing/accounts"
+	"geth-timing/common"
+	"geth-timing/core/types"
+	"geth-timing/log"
 )
 
 // Maximum time between wallet health checks to detect USB unplugs.

@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"os"
 
-	"go-ethereum-timing/cmd/utils"
-	"go-ethereum-timing/swarm/storage"
+	"geth-timing/cmd/utils"
+	"geth-timing/swarm/storage"
 	"gopkg.in/urfave/cli.v1"
 )
 

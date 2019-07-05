@@ -26,8 +26,8 @@ import (
 	"reflect"
 	"testing"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/hexutil"
+	"geth-timing/common"
+	"geth-timing/common/hexutil"
 )
 
 var testAddrHex = "970e8128ab834e8eac17ab8e3812f010678cf791"

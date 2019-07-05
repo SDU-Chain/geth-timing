@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"go-ethereum-timing/accounts/keystore"
-	"go-ethereum-timing/cmd/utils"
+	"geth-timing/accounts/keystore"
+	"geth-timing/cmd/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

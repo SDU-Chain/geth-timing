@@ -22,10 +22,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"go-ethereum-timing/cmd/utils"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/swarm/storage"
+	"geth-timing/cmd/utils"
+	"geth-timing/common"
+	"geth-timing/log"
+	"geth-timing/swarm/storage"
 	"gopkg.in/urfave/cli.v1"
 )
 

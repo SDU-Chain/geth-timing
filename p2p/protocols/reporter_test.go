@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/log"
+	"geth-timing/log"
 )
 
 //TestReporter tests that the metrics being collected for p2p accounting

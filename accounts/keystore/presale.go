@@ -26,8 +26,8 @@ import (
 	"fmt"
 
 	"github.com/pborman/uuid"
-	"go-ethereum-timing/accounts"
-	"go-ethereum-timing/crypto"
+	"geth-timing/accounts"
+	"geth-timing/crypto"
 	"golang.org/x/crypto/pbkdf2"
 )
 

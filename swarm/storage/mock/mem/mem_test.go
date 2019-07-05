@@ -19,7 +19,7 @@ package mem
 import (
 	"testing"
 
-	"go-ethereum-timing/swarm/storage/mock/test"
+	"geth-timing/swarm/storage/mock/test"
 )
 
 // TestGlobalStore is running test for a GlobalStore

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"go-ethereum-timing/common"
+	"geth-timing/common"
 )
 
 // Genesis hashes to enforce below configs on.

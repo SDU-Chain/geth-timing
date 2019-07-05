@@ -19,9 +19,9 @@ package state
 import (
 	"bytes"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/rlp"
-	"go-ethereum-timing/trie"
+	"geth-timing/common"
+	"geth-timing/rlp"
+	"geth-timing/trie"
 )
 
 // NewStateSync create a new state trie download scheduler.

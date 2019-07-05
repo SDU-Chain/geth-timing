@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"go-ethereum-timing/common/math"
-	"go-ethereum-timing/core/vm"
+	"geth-timing/common/math"
+	"geth-timing/core/vm"
 )
 
 // Compiler contains information about the parsed source

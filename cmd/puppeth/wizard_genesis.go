@@ -29,10 +29,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/params"
+	"geth-timing/common"
+	"geth-timing/core"
+	"geth-timing/log"
+	"geth-timing/params"
 )
 
 // makeGenesis creates a new genesis struct based on some user input.

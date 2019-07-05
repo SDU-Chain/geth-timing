@@ -29,10 +29,10 @@ import (
 	"time"
 
 	ldberrors "github.com/syndtr/goleveldb/leveldb/errors"
-	"go-ethereum-timing/common"
-	ch "go-ethereum-timing/swarm/chunk"
-	"go-ethereum-timing/swarm/log"
-	"go-ethereum-timing/swarm/storage/mock/mem"
+	"geth-timing/common"
+	ch "geth-timing/swarm/chunk"
+	"geth-timing/swarm/log"
+	"geth-timing/swarm/storage/mock/mem"
 )
 
 type testDbStore struct {

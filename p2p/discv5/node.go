@@ -30,8 +30,8 @@ import (
 	"strconv"
 	"strings"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/crypto"
+	"geth-timing/common"
+	"geth-timing/crypto"
 )
 
 // Node represents a host on the network.

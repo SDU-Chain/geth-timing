@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	ethereum "go-ethereum-timing"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/hexutil"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/ethdb"
-	"go-ethereum-timing/event"
-	"go-ethereum-timing/rpc"
+	ethereum "geth-timing"
+	"geth-timing/common"
+	"geth-timing/common/hexutil"
+	"geth-timing/core/types"
+	"geth-timing/ethdb"
+	"geth-timing/event"
+	"geth-timing/rpc"
 )
 
 var (

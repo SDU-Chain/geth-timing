@@ -26,7 +26,7 @@ import (
 	"strings"
 	"time"
 
-	"go-ethereum-timing/log"
+	"geth-timing/log"
 )
 
 const (

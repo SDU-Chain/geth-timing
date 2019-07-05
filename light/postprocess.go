@@ -24,16 +24,16 @@ import (
 	"math/big"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/bitutil"
-	"go-ethereum-timing/core"
-	"go-ethereum-timing/core/rawdb"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/ethdb"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/params"
-	"go-ethereum-timing/rlp"
-	"go-ethereum-timing/trie"
+	"geth-timing/common"
+	"geth-timing/common/bitutil"
+	"geth-timing/core"
+	"geth-timing/core/rawdb"
+	"geth-timing/core/types"
+	"geth-timing/ethdb"
+	"geth-timing/log"
+	"geth-timing/params"
+	"geth-timing/rlp"
+	"geth-timing/trie"
 )
 
 // IndexerConfig includes a set of configs for chain indexers.

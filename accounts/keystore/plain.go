@@ -22,7 +22,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"go-ethereum-timing/common"
+	"geth-timing/common"
 )
 
 type keyStorePlain struct {

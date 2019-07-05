@@ -21,9 +21,9 @@ package geth
 import (
 	"encoding/json"
 
-	"go-ethereum-timing/core"
-	"go-ethereum-timing/p2p/discv5"
-	"go-ethereum-timing/params"
+	"geth-timing/core"
+	"geth-timing/p2p/discv5"
+	"geth-timing/params"
 )
 
 // MainnetGenesis returns the JSON spec to use for the main Ethereum network. It

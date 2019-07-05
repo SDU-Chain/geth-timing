@@ -24,8 +24,8 @@ import (
 	"os"
 	"strings"
 
-	"go-ethereum-timing/accounts/abi/bind"
-	"go-ethereum-timing/common/compiler"
+	"geth-timing/accounts/abi/bind"
+	"geth-timing/common/compiler"
 )
 
 var (

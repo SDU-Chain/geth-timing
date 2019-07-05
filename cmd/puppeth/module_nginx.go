@@ -24,7 +24,7 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"go-ethereum-timing/log"
+	"geth-timing/log"
 )
 
 // nginxDockerfile is theis the Dockerfile required to build an nginx reverse-

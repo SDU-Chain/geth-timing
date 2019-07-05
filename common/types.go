@@ -26,7 +26,7 @@ import (
 	"reflect"
 	"strings"
 
-	"go-ethereum-timing/common/hexutil"
+	"geth-timing/common/hexutil"
 	"golang.org/x/crypto/sha3"
 )
 

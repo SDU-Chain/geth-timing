@@ -26,9 +26,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/p2p/enr"
-	"go-ethereum-timing/p2p/netutil"
+	"geth-timing/log"
+	"geth-timing/p2p/enr"
+	"geth-timing/p2p/netutil"
 )
 
 const (

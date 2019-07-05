@@ -26,10 +26,10 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/node"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/p2p/simulations/adapters"
+	"geth-timing/log"
+	"geth-timing/node"
+	"geth-timing/p2p/enode"
+	"geth-timing/p2p/simulations/adapters"
 )
 
 // Tests that a created snapshot with a minimal service only contains the expected connections

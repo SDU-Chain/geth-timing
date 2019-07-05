@@ -19,8 +19,8 @@ package enode
 import (
 	"testing"
 
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/p2p/enr"
+	"geth-timing/crypto"
+	"geth-timing/p2p/enr"
 )
 
 func newLocalNodeForTesting() (*LocalNode, *DB) {

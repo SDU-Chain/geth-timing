@@ -22,7 +22,7 @@ import (
 	"os"
 	"runtime"
 
-	"go-ethereum-timing/log"
+	"geth-timing/log"
 )
 
 func init() {

@@ -20,7 +20,7 @@ import (
 	"context"
 	"testing"
 
-	"go-ethereum-timing/swarm/log"
+	"geth-timing/swarm/log"
 )
 
 func newTestMemStore() *MemStore {

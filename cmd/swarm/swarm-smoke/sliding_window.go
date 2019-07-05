@@ -23,9 +23,9 @@ import (
 	"time"
 
 	"github.com/pborman/uuid"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/metrics"
-	"go-ethereum-timing/swarm/testutil"
+	"geth-timing/log"
+	"geth-timing/metrics"
+	"geth-timing/swarm/testutil"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

@@ -18,8 +18,8 @@ package localstore
 
 import (
 	"github.com/syndtr/goleveldb/leveldb"
-	"go-ethereum-timing/swarm/shed"
-	"go-ethereum-timing/swarm/storage"
+	"geth-timing/swarm/shed"
+	"geth-timing/swarm/storage"
 )
 
 // ModePut enumerates different Putter modes.

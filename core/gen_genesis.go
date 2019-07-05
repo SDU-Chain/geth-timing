@@ -7,10 +7,10 @@ import (
 	"errors"
 	"math/big"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/hexutil"
-	"go-ethereum-timing/common/math"
-	"go-ethereum-timing/params"
+	"geth-timing/common"
+	"geth-timing/common/hexutil"
+	"geth-timing/common/math"
+	"geth-timing/params"
 )
 
 var _ = (*genesisSpecMarshaling)(nil)

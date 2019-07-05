@@ -23,9 +23,9 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"go-ethereum-timing/cmd/utils"
-	"go-ethereum-timing/swarm/api"
-	"go-ethereum-timing/swarm/api/client"
+	"geth-timing/cmd/utils"
+	"geth-timing/swarm/api"
+	"geth-timing/swarm/api/client"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -19,7 +19,7 @@ package network
 import (
 	"testing"
 
-	p2ptest "go-ethereum-timing/p2p/testing"
+	p2ptest "geth-timing/p2p/testing"
 )
 
 /***

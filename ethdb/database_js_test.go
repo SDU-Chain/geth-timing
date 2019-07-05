@@ -19,7 +19,7 @@
 package ethdb_test
 
 import (
-	"go-ethereum-timing/ethdb"
+	"geth-timing/ethdb"
 )
 
 var _ ethdb.Database = &ethdb.LDBDatabase{}

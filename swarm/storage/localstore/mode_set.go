@@ -18,7 +18,7 @@ package localstore
 
 import (
 	"github.com/syndtr/goleveldb/leveldb"
-	"go-ethereum-timing/swarm/storage"
+	"geth-timing/swarm/storage"
 )
 
 // ModeSet enumerates different Setter modes.

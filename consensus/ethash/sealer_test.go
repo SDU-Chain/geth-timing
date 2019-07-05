@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/types"
+	"geth-timing/common"
+	"geth-timing/core/types"
 )
 
 // Tests whether remote HTTP servers are correctly notified of new work.

@@ -21,11 +21,11 @@ import (
 	"io"
 	"math/big"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/event"
-	"go-ethereum-timing/rlp"
+	"geth-timing/common"
+	"geth-timing/core"
+	"geth-timing/core/types"
+	"geth-timing/event"
+	"geth-timing/rlp"
 )
 
 // Constants to match up protocol versions and messages

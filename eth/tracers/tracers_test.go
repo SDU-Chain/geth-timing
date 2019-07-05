@@ -27,17 +27,17 @@ import (
 	"strings"
 	"testing"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/hexutil"
-	"go-ethereum-timing/common/math"
-	"go-ethereum-timing/core"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/core/vm"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/ethdb"
-	"go-ethereum-timing/params"
-	"go-ethereum-timing/rlp"
-	"go-ethereum-timing/tests"
+	"geth-timing/common"
+	"geth-timing/common/hexutil"
+	"geth-timing/common/math"
+	"geth-timing/core"
+	"geth-timing/core/types"
+	"geth-timing/core/vm"
+	"geth-timing/crypto"
+	"geth-timing/ethdb"
+	"geth-timing/params"
+	"geth-timing/rlp"
+	"geth-timing/tests"
 )
 
 // To generate a new callTracer test, copy paste the makeTest method below into

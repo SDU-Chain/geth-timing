@@ -26,10 +26,10 @@ import (
 	"runtime"
 	"strings"
 
-	"go-ethereum-timing/cmd/internal/browser"
-	"go-ethereum-timing/params"
+	"geth-timing/cmd/internal/browser"
+	"geth-timing/params"
 
-	"go-ethereum-timing/cmd/utils"
+	"geth-timing/cmd/utils"
 	cli "gopkg.in/urfave/cli.v1"
 )
 
@@ -41,7 +41,7 @@ var bugCommand = cli.Command{
 	Category:  "MISCELLANEOUS COMMANDS",
 }
 
-const issueURL = "https://go-ethereum-timing/issues/new"
+const issueURL = "https://github.com/SadPencil/geth-timing/issues/new"
 
 // reportBug reports a bug by opening a new URL to the go-ethereum GH issue
 // tracker and setting default values as the issue body.

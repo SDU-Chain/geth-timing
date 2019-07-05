@@ -25,8 +25,8 @@ import (
 	"time"
 
 	lru "github.com/hashicorp/golang-lru"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/swarm/log"
+	"geth-timing/p2p/enode"
+	"geth-timing/swarm/log"
 )
 
 type (

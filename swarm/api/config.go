@@ -23,16 +23,16 @@ import (
 	"path/filepath"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/contracts/ens"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/node"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/swarm/log"
-	"go-ethereum-timing/swarm/network"
-	"go-ethereum-timing/swarm/pss"
-	"go-ethereum-timing/swarm/services/swap"
-	"go-ethereum-timing/swarm/storage"
+	"geth-timing/common"
+	"geth-timing/contracts/ens"
+	"geth-timing/crypto"
+	"geth-timing/node"
+	"geth-timing/p2p/enode"
+	"geth-timing/swarm/log"
+	"geth-timing/swarm/network"
+	"geth-timing/swarm/pss"
+	"geth-timing/swarm/services/swap"
+	"geth-timing/swarm/storage"
 )
 
 const (

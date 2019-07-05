@@ -20,8 +20,8 @@ import (
 	"reflect"
 	"testing"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/crypto"
+	"geth-timing/common"
+	"geth-timing/crypto"
 )
 
 func TestConfig(t *testing.T) {

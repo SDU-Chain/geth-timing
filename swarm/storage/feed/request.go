@@ -21,10 +21,10 @@ import (
 	"encoding/json"
 	"hash"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/hexutil"
-	"go-ethereum-timing/swarm/storage"
-	"go-ethereum-timing/swarm/storage/feed/lookup"
+	"geth-timing/common"
+	"geth-timing/common/hexutil"
+	"geth-timing/swarm/storage"
+	"geth-timing/swarm/storage/feed/lookup"
 )
 
 // Request represents a request to sign or signed feed update message

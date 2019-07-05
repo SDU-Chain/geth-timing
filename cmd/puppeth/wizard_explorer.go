@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"go-ethereum-timing/log"
+	"geth-timing/log"
 )
 
 // deployExplorer creates a new block explorer based on some user input.

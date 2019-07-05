@@ -17,8 +17,8 @@
 package les
 
 import (
-	"go-ethereum-timing/metrics"
-	"go-ethereum-timing/p2p"
+	"geth-timing/metrics"
+	"geth-timing/p2p"
 )
 
 var (

@@ -19,9 +19,9 @@ package keystore
 import (
 	"math/big"
 
-	ethereum "go-ethereum-timing"
-	"go-ethereum-timing/accounts"
-	"go-ethereum-timing/core/types"
+	ethereum "geth-timing"
+	"geth-timing/accounts"
+	"geth-timing/core/types"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

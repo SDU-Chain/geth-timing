@@ -8,7 +8,7 @@ import (
 
 	jaeger "github.com/uber/jaeger-client-go"
 	jaegercfg "github.com/uber/jaeger-client-go/config"
-	"go-ethereum-timing/log"
+	"geth-timing/log"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

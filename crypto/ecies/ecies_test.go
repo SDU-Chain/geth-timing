@@ -40,7 +40,7 @@ import (
 	"math/big"
 	"testing"
 
-	"go-ethereum-timing/crypto"
+	"geth-timing/crypto"
 )
 
 var dumpEnc bool

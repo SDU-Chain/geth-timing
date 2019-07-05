@@ -19,8 +19,8 @@ package trie
 import (
 	"fmt"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/log"
+	"geth-timing/common"
+	"geth-timing/log"
 )
 
 // SecureTrie wraps a trie with key hashing. In a secure trie, all

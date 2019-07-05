@@ -41,23 +41,23 @@ import (
 	"sync"
 	"time"
 
-	"go-ethereum-timing/accounts"
-	"go-ethereum-timing/accounts/keystore"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/eth"
-	"go-ethereum-timing/eth/downloader"
-	"go-ethereum-timing/ethclient"
-	"go-ethereum-timing/ethstats"
-	"go-ethereum-timing/les"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/node"
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/p2p/discv5"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/p2p/nat"
-	"go-ethereum-timing/params"
+	"geth-timing/accounts"
+	"geth-timing/accounts/keystore"
+	"geth-timing/common"
+	"geth-timing/core"
+	"geth-timing/core/types"
+	"geth-timing/eth"
+	"geth-timing/eth/downloader"
+	"geth-timing/ethclient"
+	"geth-timing/ethstats"
+	"geth-timing/les"
+	"geth-timing/log"
+	"geth-timing/node"
+	"geth-timing/p2p"
+	"geth-timing/p2p/discv5"
+	"geth-timing/p2p/enode"
+	"geth-timing/p2p/nat"
+	"geth-timing/params"
 	"golang.org/x/net/websocket"
 )
 
@@ -449,7 +449,7 @@ func (f *faucet) apiHandler(conn *websocket.Conn) {
 		case *noauthFlag:
 			username, avatar, address, err = authNoAuth(msg.URL)
 		default:
-			err = errors.New("Something funky happened, please open an issue at https://go-ethereum-timing/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/SadPencil/geth-timing/issues")
 		}
 		if err != nil {
 			if err = sendError(conn, err); err != nil {

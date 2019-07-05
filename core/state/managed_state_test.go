@@ -19,8 +19,8 @@ package state
 import (
 	"testing"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/ethdb"
+	"geth-timing/common"
+	"geth-timing/ethdb"
 )
 
 var addr = common.BytesToAddress([]byte("test"))

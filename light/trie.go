@@ -21,12 +21,12 @@ import (
 	"errors"
 	"fmt"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/state"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/ethdb"
-	"go-ethereum-timing/trie"
+	"geth-timing/common"
+	"geth-timing/core/state"
+	"geth-timing/core/types"
+	"geth-timing/crypto"
+	"geth-timing/ethdb"
+	"geth-timing/trie"
 )
 
 func NewState(ctx context.Context, head *types.Header, odr OdrBackend) *state.StateDB {

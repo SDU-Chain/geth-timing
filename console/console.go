@@ -31,9 +31,9 @@ import (
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 	"github.com/robertkrimen/otto"
-	"go-ethereum-timing/internal/jsre"
-	"go-ethereum-timing/internal/web3ext"
-	"go-ethereum-timing/rpc"
+	"geth-timing/internal/jsre"
+	"geth-timing/internal/web3ext"
+	"geth-timing/rpc"
 )
 
 var (

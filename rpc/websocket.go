@@ -31,7 +31,7 @@ import (
 	"time"
 
 	mapset "github.com/deckarep/golang-set"
-	"go-ethereum-timing/log"
+	"geth-timing/log"
 	"golang.org/x/net/websocket"
 )
 

@@ -6,9 +6,9 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/hexutil"
-	"go-ethereum-timing/common/math"
+	"geth-timing/common"
+	"geth-timing/common/hexutil"
+	"geth-timing/common/math"
 )
 
 var _ = (*structLogMarshaling)(nil)

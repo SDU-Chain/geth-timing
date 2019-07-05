@@ -20,9 +20,9 @@ import (
 	"container/ring"
 	"sync"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/log"
+	"geth-timing/common"
+	"geth-timing/core/types"
+	"geth-timing/log"
 )
 
 // chainRetriever is used by the unconfirmed block set to verify whether a previously

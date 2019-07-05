@@ -19,8 +19,8 @@ package api
 import (
 	"context"
 
-	"go-ethereum-timing/swarm/network"
-	"go-ethereum-timing/swarm/storage"
+	"geth-timing/swarm/network"
+	"geth-timing/swarm/storage"
 )
 
 type Inspector struct {

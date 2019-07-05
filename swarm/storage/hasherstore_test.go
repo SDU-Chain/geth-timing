@@ -21,9 +21,9 @@ import (
 	"context"
 	"testing"
 
-	"go-ethereum-timing/swarm/storage/encryption"
+	"geth-timing/swarm/storage/encryption"
 
-	"go-ethereum-timing/common"
+	"geth-timing/common"
 )
 
 func TestHasherStore(t *testing.T) {

@@ -27,8 +27,8 @@ import (
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/util"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/swarm/storage/mock"
+	"geth-timing/common"
+	"geth-timing/swarm/storage/mock"
 )
 
 // GlobalStore contains the LevelDB database that is storing

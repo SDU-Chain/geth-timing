@@ -24,7 +24,7 @@ import (
 	"os/exec"
 	"runtime"
 
-	"go-ethereum-timing/swarm/log"
+	"geth-timing/swarm/log"
 )
 
 func externalUnmount(mountPoint string) error {

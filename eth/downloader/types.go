@@ -19,7 +19,7 @@ package downloader
 import (
 	"fmt"
 
-	"go-ethereum-timing/core/types"
+	"geth-timing/core/types"
 )
 
 // peerDropFn is a callback type for dropping a peer detected as malicious.

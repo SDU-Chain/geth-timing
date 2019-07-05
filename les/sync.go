@@ -20,9 +20,9 @@ import (
 	"context"
 	"time"
 
-	"go-ethereum-timing/core/rawdb"
-	"go-ethereum-timing/eth/downloader"
-	"go-ethereum-timing/light"
+	"geth-timing/core/rawdb"
+	"geth-timing/eth/downloader"
+	"geth-timing/light"
 )
 
 // syncer is responsible for periodically synchronising with the network, both

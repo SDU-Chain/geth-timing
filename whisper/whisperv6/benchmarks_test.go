@@ -20,7 +20,7 @@ import (
 	"crypto/sha256"
 	"testing"
 
-	"go-ethereum-timing/crypto"
+	"geth-timing/crypto"
 	"golang.org/x/crypto/pbkdf2"
 )
 

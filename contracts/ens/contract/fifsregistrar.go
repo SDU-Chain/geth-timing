@@ -6,10 +6,10 @@ package contract
 import (
 	"strings"
 
-	"go-ethereum-timing/accounts/abi"
-	"go-ethereum-timing/accounts/abi/bind"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/types"
+	"geth-timing/accounts/abi"
+	"geth-timing/accounts/abi/bind"
+	"geth-timing/common"
+	"geth-timing/core/types"
 )
 
 // FIFSRegistrarABI is the input ABI used to generate the binding from.

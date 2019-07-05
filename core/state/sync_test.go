@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"testing"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/ethdb"
-	"go-ethereum-timing/trie"
+	"geth-timing/common"
+	"geth-timing/crypto"
+	"geth-timing/ethdb"
+	"geth-timing/trie"
 )
 
 // testAccount is the data associated with an account used by the state tests.

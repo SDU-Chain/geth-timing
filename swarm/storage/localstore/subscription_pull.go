@@ -23,9 +23,9 @@ import (
 	"fmt"
 	"sync"
 
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/swarm/shed"
-	"go-ethereum-timing/swarm/storage"
+	"geth-timing/log"
+	"geth-timing/swarm/shed"
+	"geth-timing/swarm/storage"
 )
 
 // SubscribePull returns a channel that provides chunk addresses and stored times from pull syncing index.

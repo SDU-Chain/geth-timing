@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"go-ethereum-timing/common"
+	"geth-timing/common"
 )
 
 func TestHexOrDecimal256(t *testing.T) {

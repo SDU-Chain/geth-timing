@@ -3,9 +3,9 @@ InstallDir "$InstDir"
 OutFile "${OUTPUTFILE}" # set through command line arguments
 
 # Links for "Add/Remove Programs"
-!define HELPURL "https://go-ethereum-timing/issues"
-!define UPDATEURL "https://go-ethereum-timing/releases"
-!define ABOUTURL "https://go-ethereum-timing#ethereum-go"
+!define HELPURL "https://github.com/SadPencil/geth-timing/issues"
+!define UPDATEURL "https://github.com/SadPencil/geth-timing/releases"
+!define ABOUTURL "https://github.com/SadPencil/geth-timing#ethereum-go"
 !define /date NOW "%Y%m%d"
 
 PageEx license

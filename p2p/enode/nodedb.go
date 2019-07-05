@@ -32,7 +32,7 @@ import (
 	"github.com/syndtr/goleveldb/leveldb/opt"
 	"github.com/syndtr/goleveldb/leveldb/storage"
 	"github.com/syndtr/goleveldb/leveldb/util"
-	"go-ethereum-timing/rlp"
+	"geth-timing/rlp"
 )
 
 // Keys in the node database.

@@ -19,9 +19,9 @@ package ethash
 import (
 	"errors"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/hexutil"
-	"go-ethereum-timing/core/types"
+	"geth-timing/common"
+	"geth-timing/common/hexutil"
+	"geth-timing/core/types"
 )
 
 var errEthashStopped = errors.New("ethash stopped")

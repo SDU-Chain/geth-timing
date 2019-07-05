@@ -36,7 +36,7 @@ import (
 	"errors"
 	"io"
 
-	"go-ethereum-timing/common"
+	"geth-timing/common"
 )
 
 // ErrNotFound indicates that the chunk is not found.

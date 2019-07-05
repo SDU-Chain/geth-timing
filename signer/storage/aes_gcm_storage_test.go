@@ -24,8 +24,8 @@ import (
 	"testing"
 
 	"github.com/mattn/go-colorable"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/log"
+	"geth-timing/common"
+	"geth-timing/log"
 )
 
 func TestEncryption(t *testing.T) {

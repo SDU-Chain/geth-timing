@@ -25,14 +25,14 @@ import (
 	"sync"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/prque"
-	"go-ethereum-timing/core/state"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/event"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/metrics"
-	"go-ethereum-timing/params"
+	"geth-timing/common"
+	"geth-timing/common/prque"
+	"geth-timing/core/state"
+	"geth-timing/core/types"
+	"geth-timing/event"
+	"geth-timing/log"
+	"geth-timing/metrics"
+	"geth-timing/params"
 )
 
 const (

@@ -19,10 +19,10 @@ package core
 import (
 	"fmt"
 
-	"go-ethereum-timing/consensus"
-	"go-ethereum-timing/core/state"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/params"
+	"geth-timing/consensus"
+	"geth-timing/core/state"
+	"geth-timing/core/types"
+	"geth-timing/params"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

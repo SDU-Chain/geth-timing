@@ -7,8 +7,8 @@ import (
 	"errors"
 	"math/big"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/hexutil"
+	"geth-timing/common"
+	"geth-timing/common/hexutil"
 )
 
 var _ = (*headerMarshaling)(nil)

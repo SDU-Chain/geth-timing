@@ -19,8 +19,8 @@ package runtime_test
 import (
 	"fmt"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/vm/runtime"
+	"geth-timing/common"
+	"geth-timing/core/vm/runtime"
 )
 
 func ExampleExecute() {

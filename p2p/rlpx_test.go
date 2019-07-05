@@ -32,10 +32,10 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/crypto/ecies"
-	"go-ethereum-timing/p2p/simulations/pipes"
-	"go-ethereum-timing/rlp"
+	"geth-timing/crypto"
+	"geth-timing/crypto/ecies"
+	"geth-timing/p2p/simulations/pipes"
+	"geth-timing/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

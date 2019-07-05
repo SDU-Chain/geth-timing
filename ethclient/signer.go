@@ -20,8 +20,8 @@ import (
 	"errors"
 	"math/big"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/types"
+	"geth-timing/common"
+	"geth-timing/core/types"
 )
 
 // senderFromServer is a types.Signer that remembers the sender address returned by the RPC

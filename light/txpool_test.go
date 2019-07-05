@@ -23,13 +23,13 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/consensus/ethash"
-	"go-ethereum-timing/core"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/core/vm"
-	"go-ethereum-timing/ethdb"
-	"go-ethereum-timing/params"
+	"geth-timing/common"
+	"geth-timing/consensus/ethash"
+	"geth-timing/core"
+	"geth-timing/core/types"
+	"geth-timing/core/vm"
+	"geth-timing/ethdb"
+	"geth-timing/params"
 )
 
 type testTxRelay struct {

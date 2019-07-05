@@ -24,12 +24,12 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/accounts/abi/bind"
-	"go-ethereum-timing/accounts/abi/bind/backends"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/contracts/chequebook/contract"
-	"go-ethereum-timing/core"
-	"go-ethereum-timing/crypto"
+	"geth-timing/accounts/abi/bind"
+	"geth-timing/accounts/abi/bind/backends"
+	"geth-timing/common"
+	"geth-timing/contracts/chequebook/contract"
+	"geth-timing/core"
+	"geth-timing/crypto"
 )
 
 var (

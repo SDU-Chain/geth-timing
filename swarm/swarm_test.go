@@ -28,10 +28,10 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/rpc"
-	"go-ethereum-timing/swarm/api"
+	"geth-timing/common"
+	"geth-timing/crypto"
+	"geth-timing/rpc"
+	"geth-timing/swarm/api"
 )
 
 // TestNewSwarm validates Swarm fields in repsect to the provided configuration.

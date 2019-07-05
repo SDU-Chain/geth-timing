@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"go-ethereum-timing/event"
+	"geth-timing/event"
 )
 
 func ExampleNewSubscription() {

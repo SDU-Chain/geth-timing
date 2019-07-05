@@ -6,12 +6,12 @@ package contract
 import (
 	"strings"
 
-	ethereum "go-ethereum-timing"
-	"go-ethereum-timing/accounts/abi"
-	"go-ethereum-timing/accounts/abi/bind"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/event"
+	ethereum "geth-timing"
+	"geth-timing/accounts/abi"
+	"geth-timing/accounts/abi/bind"
+	"geth-timing/common"
+	"geth-timing/core/types"
+	"geth-timing/event"
 )
 
 // ENSABI is the input ABI used to generate the binding from.

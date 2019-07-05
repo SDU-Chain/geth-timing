@@ -20,9 +20,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/rlp"
-	"go-ethereum-timing/trie"
+	"geth-timing/common"
+	"geth-timing/rlp"
+	"geth-timing/trie"
 )
 
 // NodeIterator is an iterator to traverse the entire state trie post-order,

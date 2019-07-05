@@ -21,7 +21,7 @@ import (
 	"strings"
 	"unicode"
 
-	"go-ethereum-timing/eth/tracers/internal/tracers"
+	"geth-timing/eth/tracers/internal/tracers"
 )
 
 // all contains all the built in JavaScript tracers by name.

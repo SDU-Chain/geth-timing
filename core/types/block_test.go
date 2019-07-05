@@ -23,8 +23,8 @@ import (
 	"reflect"
 	"testing"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/rlp"
+	"geth-timing/common"
+	"geth-timing/rlp"
 )
 
 // from bcValidBlockTest.json, "SimpleTx"

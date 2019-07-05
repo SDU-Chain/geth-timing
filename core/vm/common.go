@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/math"
+	"geth-timing/common"
+	"geth-timing/common/math"
 )
 
 // calculates the memory size required for a step

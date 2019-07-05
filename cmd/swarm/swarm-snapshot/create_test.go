@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"go-ethereum-timing/p2p/simulations"
+	"geth-timing/p2p/simulations"
 )
 
 // TestSnapshotCreate is a high level e2e test that tests for snapshot generation.

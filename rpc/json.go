@@ -26,7 +26,7 @@ import (
 	"strings"
 	"sync"
 
-	"go-ethereum-timing/log"
+	"geth-timing/log"
 )
 
 const (

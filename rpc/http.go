@@ -32,7 +32,7 @@ import (
 	"time"
 
 	"github.com/rs/cors"
-	"go-ethereum-timing/log"
+	"geth-timing/log"
 )
 
 const (

@@ -28,11 +28,11 @@ import (
 	"os"
 	"testing"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/swarm/sctx"
-	"go-ethereum-timing/swarm/storage"
+	"geth-timing/common"
+	"geth-timing/core/types"
+	"geth-timing/log"
+	"geth-timing/swarm/sctx"
+	"geth-timing/swarm/storage"
 )
 
 func init() {

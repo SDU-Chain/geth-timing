@@ -30,8 +30,8 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/accounts/keystore"
-	"go-ethereum-timing/core/types"
+	"geth-timing/accounts/keystore"
+	"geth-timing/core/types"
 )
 
 // Tests that the account management snippets work correctly.

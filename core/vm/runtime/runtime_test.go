@@ -21,12 +21,12 @@ import (
 	"strings"
 	"testing"
 
-	"go-ethereum-timing/accounts/abi"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/state"
-	"go-ethereum-timing/core/vm"
-	"go-ethereum-timing/ethdb"
-	"go-ethereum-timing/params"
+	"geth-timing/accounts/abi"
+	"geth-timing/common"
+	"geth-timing/core/state"
+	"geth-timing/core/vm"
+	"geth-timing/ethdb"
+	"geth-timing/params"
 )
 
 func TestDefaults(t *testing.T) {

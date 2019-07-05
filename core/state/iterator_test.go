@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/ethdb"
+	"geth-timing/common"
+	"geth-timing/ethdb"
 )
 
 // Tests that the node iterator indeed walks over the entire database contents.

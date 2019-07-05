@@ -17,9 +17,9 @@
 package core
 
 import (
-	"go-ethereum-timing/core/state"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/core/vm"
+	"geth-timing/core/state"
+	"geth-timing/core/types"
+	"geth-timing/core/vm"
 )
 
 // Validator is an interface which defines the standard for block validation. It

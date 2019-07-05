@@ -22,8 +22,8 @@ import (
 	"errors"
 	"math/big"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/types"
+	"geth-timing/common"
+	"geth-timing/core/types"
 )
 
 // NotFound is returned by API methods if the requested item does not exist.

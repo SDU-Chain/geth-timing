@@ -23,13 +23,13 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"go-ethereum-timing/consensus/ethash"
-	"go-ethereum-timing/core"
-	"go-ethereum-timing/core/state"
-	"go-ethereum-timing/core/vm"
-	"go-ethereum-timing/ethdb"
-	"go-ethereum-timing/params"
-	"go-ethereum-timing/trie"
+	"geth-timing/consensus/ethash"
+	"geth-timing/core"
+	"geth-timing/core/state"
+	"geth-timing/core/vm"
+	"geth-timing/ethdb"
+	"geth-timing/params"
+	"geth-timing/trie"
 )
 
 func TestNodeIterator(t *testing.T) {

@@ -19,11 +19,11 @@ package downloader
 import (
 	"math/big"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core"
-	"go-ethereum-timing/core/rawdb"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/ethdb"
+	"geth-timing/common"
+	"geth-timing/core"
+	"geth-timing/core/rawdb"
+	"geth-timing/core/types"
+	"geth-timing/ethdb"
 )
 
 // FakePeer is a mock downloader peer that operates on a local database instance

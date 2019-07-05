@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"go-ethereum-timing/common"
+	"geth-timing/common"
 )
 
 func TestPack(t *testing.T) {

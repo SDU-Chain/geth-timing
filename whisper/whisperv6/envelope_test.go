@@ -22,7 +22,7 @@ import (
 	mrand "math/rand"
 	"testing"
 
-	"go-ethereum-timing/crypto"
+	"geth-timing/crypto"
 )
 
 func TestEnvelopeOpenAcceptsOnlyOneKeyTypeInFilter(t *testing.T) {

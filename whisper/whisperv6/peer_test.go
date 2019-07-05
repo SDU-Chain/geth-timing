@@ -28,13 +28,13 @@ import (
 
 	"net"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/hexutil"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/p2p/nat"
-	"go-ethereum-timing/rlp"
+	"geth-timing/common"
+	"geth-timing/common/hexutil"
+	"geth-timing/crypto"
+	"geth-timing/p2p"
+	"geth-timing/p2p/enode"
+	"geth-timing/p2p/nat"
+	"geth-timing/rlp"
 )
 
 var keys = []string{

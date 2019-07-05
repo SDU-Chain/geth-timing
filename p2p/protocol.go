@@ -19,8 +19,8 @@ package p2p
 import (
 	"fmt"
 
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/p2p/enr"
+	"geth-timing/p2p/enode"
+	"geth-timing/p2p/enr"
 )
 
 // Protocol represents a P2P subprotocol implementation.

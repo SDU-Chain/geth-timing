@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"sync"
 
-	"go-ethereum-timing/common/hexutil"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/rlp"
-	"go-ethereum-timing/swarm/log"
-	"go-ethereum-timing/swarm/pss"
+	"geth-timing/common/hexutil"
+	"geth-timing/crypto"
+	"geth-timing/p2p"
+	"geth-timing/rlp"
+	"geth-timing/swarm/log"
+	"geth-timing/swarm/pss"
 )
 
 const (

@@ -19,7 +19,7 @@ package ethapi
 import (
 	"sync"
 
-	"go-ethereum-timing/common"
+	"geth-timing/common"
 )
 
 type AddrLocker struct {

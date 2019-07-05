@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/log"
+	"geth-timing/common"
+	"geth-timing/core/types"
+	"geth-timing/log"
 )
 
 // WaitMined waits for tx to be mined on the blockchain.

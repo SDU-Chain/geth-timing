@@ -19,9 +19,9 @@ package types
 import (
 	"io"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/hexutil"
-	"go-ethereum-timing/rlp"
+	"geth-timing/common"
+	"geth-timing/common/hexutil"
+	"geth-timing/rlp"
 )
 
 //go:generate gencodec -type Log -field-override logMarshaling -out gen_log_json.go

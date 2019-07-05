@@ -22,10 +22,10 @@ import (
 	"strconv"
 	"sync"
 
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/p2p/protocols"
-	"go-ethereum-timing/swarm/log"
-	"go-ethereum-timing/swarm/state"
+	"geth-timing/p2p/enode"
+	"geth-timing/p2p/protocols"
+	"geth-timing/swarm/log"
+	"geth-timing/swarm/state"
 )
 
 // SwAP Swarm Accounting Protocol

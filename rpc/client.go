@@ -32,7 +32,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-ethereum-timing/log"
+	"geth-timing/log"
 )
 
 var (

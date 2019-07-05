@@ -19,7 +19,7 @@ package state
 import (
 	"sync"
 
-	"go-ethereum-timing/common"
+	"geth-timing/common"
 )
 
 type account struct {

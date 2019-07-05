@@ -3,8 +3,8 @@ package http
 import (
 	"context"
 
-	"go-ethereum-timing/swarm/api"
-	"go-ethereum-timing/swarm/sctx"
+	"geth-timing/swarm/api"
+	"geth-timing/swarm/sctx"
 )
 
 type uriKey struct{}

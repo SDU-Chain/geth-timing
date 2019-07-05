@@ -19,8 +19,8 @@ package les
 import (
 	"time"
 
-	"go-ethereum-timing/common/bitutil"
-	"go-ethereum-timing/light"
+	"geth-timing/common/bitutil"
+	"geth-timing/light"
 )
 
 const (

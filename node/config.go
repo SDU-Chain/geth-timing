@@ -26,15 +26,15 @@ import (
 	"strings"
 	"sync"
 
-	"go-ethereum-timing/accounts"
-	"go-ethereum-timing/accounts/keystore"
-	"go-ethereum-timing/accounts/usbwallet"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/rpc"
+	"geth-timing/accounts"
+	"geth-timing/accounts/keystore"
+	"geth-timing/accounts/usbwallet"
+	"geth-timing/common"
+	"geth-timing/crypto"
+	"geth-timing/log"
+	"geth-timing/p2p"
+	"geth-timing/p2p/enode"
+	"geth-timing/rpc"
 )
 
 const (

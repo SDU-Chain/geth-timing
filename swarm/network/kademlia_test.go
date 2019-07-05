@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/p2p/protocols"
-	"go-ethereum-timing/swarm/pot"
+	"geth-timing/common"
+	"geth-timing/log"
+	"geth-timing/p2p"
+	"geth-timing/p2p/enode"
+	"geth-timing/p2p/protocols"
+	"geth-timing/swarm/pot"
 )
 
 func init() {

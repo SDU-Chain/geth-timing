@@ -24,8 +24,8 @@ import (
 
 	"strings"
 
-	"go-ethereum-timing/cmd/utils"
-	"go-ethereum-timing/internal/debug"
+	"geth-timing/cmd/utils"
+	"geth-timing/internal/debug"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

@@ -26,7 +26,7 @@ import (
 	"net"
 	"strings"
 
-	"go-ethereum-timing/p2p/enr"
+	"geth-timing/p2p/enr"
 )
 
 // Node represents a host on the network.

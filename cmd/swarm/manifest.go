@@ -22,9 +22,9 @@ import (
 	"os"
 	"strings"
 
-	"go-ethereum-timing/cmd/utils"
-	"go-ethereum-timing/swarm/api"
-	swarm "go-ethereum-timing/swarm/api/client"
+	"geth-timing/cmd/utils"
+	"geth-timing/swarm/api"
+	swarm "geth-timing/swarm/api/client"
 	"gopkg.in/urfave/cli.v1"
 )
 

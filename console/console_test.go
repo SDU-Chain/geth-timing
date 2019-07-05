@@ -26,12 +26,12 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/consensus/ethash"
-	"go-ethereum-timing/core"
-	"go-ethereum-timing/eth"
-	"go-ethereum-timing/internal/jsre"
-	"go-ethereum-timing/node"
+	"geth-timing/common"
+	"geth-timing/consensus/ethash"
+	"geth-timing/core"
+	"geth-timing/eth"
+	"geth-timing/internal/jsre"
+	"geth-timing/node"
 )
 
 const (

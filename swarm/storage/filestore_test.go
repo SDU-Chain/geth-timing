@@ -24,7 +24,7 @@ import (
 	"os"
 	"testing"
 
-	"go-ethereum-timing/swarm/testutil"
+	"geth-timing/swarm/testutil"
 )
 
 const testDataSize = 0x0001000

@@ -22,11 +22,11 @@ import (
 	"math/rand"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/prque"
-	"go-ethereum-timing/consensus"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/log"
+	"geth-timing/common"
+	"geth-timing/common/prque"
+	"geth-timing/consensus"
+	"geth-timing/core/types"
+	"geth-timing/log"
 )
 
 const (

@@ -21,9 +21,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"go-ethereum-timing/common/bitutil"
-	"go-ethereum-timing/common/hexutil"
-	"go-ethereum-timing/swarm/storage"
+	"geth-timing/common/bitutil"
+	"geth-timing/common/hexutil"
+	"geth-timing/swarm/storage"
 )
 
 // TopicLength establishes the max length of a topic string

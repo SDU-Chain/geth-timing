@@ -30,7 +30,7 @@ import (
 	"strings"
 	"testing"
 
-	"go-ethereum-timing/params"
+	"geth-timing/params"
 )
 
 var (

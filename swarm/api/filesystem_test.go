@@ -24,8 +24,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/swarm/storage"
+	"geth-timing/common"
+	"geth-timing/swarm/storage"
 )
 
 var testDownloadDir, _ = ioutil.TempDir(os.TempDir(), "bzz-test")

@@ -33,11 +33,11 @@ import (
 	"sync"
 	"time"
 
-	"go-ethereum-timing/accounts"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/event"
+	"geth-timing/accounts"
+	"geth-timing/common"
+	"geth-timing/core/types"
+	"geth-timing/crypto"
+	"geth-timing/event"
 )
 
 var (

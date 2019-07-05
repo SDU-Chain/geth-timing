@@ -19,7 +19,7 @@ package state
 import (
 	"math/big"
 
-	"go-ethereum-timing/common"
+	"geth-timing/common"
 )
 
 // journalEntry is a modification entry in the state change journal that can be

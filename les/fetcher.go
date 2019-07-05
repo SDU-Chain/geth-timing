@@ -22,13 +22,13 @@ import (
 	"sync"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/mclock"
-	"go-ethereum-timing/consensus"
-	"go-ethereum-timing/core/rawdb"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/light"
-	"go-ethereum-timing/log"
+	"geth-timing/common"
+	"geth-timing/common/mclock"
+	"geth-timing/consensus"
+	"geth-timing/core/rawdb"
+	"geth-timing/core/types"
+	"geth-timing/light"
+	"geth-timing/log"
 )
 
 const (

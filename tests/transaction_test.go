@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"go-ethereum-timing/params"
+	"geth-timing/params"
 )
 
 func TestTransaction(t *testing.T) {

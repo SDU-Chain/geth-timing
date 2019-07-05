@@ -25,16 +25,16 @@ import (
 	"sync"
 	"time"
 
-	"go-ethereum-timing/metrics"
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/p2p/protocols"
-	"go-ethereum-timing/rpc"
-	"go-ethereum-timing/swarm/log"
-	"go-ethereum-timing/swarm/network"
-	"go-ethereum-timing/swarm/network/stream/intervals"
-	"go-ethereum-timing/swarm/state"
-	"go-ethereum-timing/swarm/storage"
+	"geth-timing/metrics"
+	"geth-timing/p2p"
+	"geth-timing/p2p/enode"
+	"geth-timing/p2p/protocols"
+	"geth-timing/rpc"
+	"geth-timing/swarm/log"
+	"geth-timing/swarm/network"
+	"geth-timing/swarm/network/stream/intervals"
+	"geth-timing/swarm/state"
+	"geth-timing/swarm/storage"
 )
 
 const (

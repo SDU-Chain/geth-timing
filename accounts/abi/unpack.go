@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"reflect"
 
-	"go-ethereum-timing/common"
+	"geth-timing/common"
 )
 
 var (

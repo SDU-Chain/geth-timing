@@ -26,10 +26,10 @@ import (
 
 	opentracing "github.com/opentracing/opentracing-go"
 	olog "github.com/opentracing/opentracing-go/log"
-	"go-ethereum-timing/metrics"
-	ch "go-ethereum-timing/swarm/chunk"
-	"go-ethereum-timing/swarm/log"
-	"go-ethereum-timing/swarm/spancontext"
+	"geth-timing/metrics"
+	ch "geth-timing/swarm/chunk"
+	"geth-timing/swarm/log"
+	"geth-timing/swarm/spancontext"
 )
 
 /*

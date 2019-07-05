@@ -20,8 +20,8 @@ import (
 	"math/big"
 	"testing"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/params"
+	"geth-timing/common"
+	"geth-timing/params"
 )
 
 var (

@@ -28,12 +28,12 @@ import (
 	cli "gopkg.in/urfave/cli.v1"
 
 	"github.com/naoina/toml"
-	"go-ethereum-timing/cmd/utils"
-	"go-ethereum-timing/dashboard"
-	"go-ethereum-timing/eth"
-	"go-ethereum-timing/node"
-	"go-ethereum-timing/params"
-	whisper "go-ethereum-timing/whisper/whisperv6"
+	"geth-timing/cmd/utils"
+	"geth-timing/dashboard"
+	"geth-timing/eth"
+	"geth-timing/node"
+	"geth-timing/params"
+	whisper "geth-timing/whisper/whisperv6"
 )
 
 var (

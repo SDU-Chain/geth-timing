@@ -21,13 +21,13 @@ import (
 	"errors"
 	"math/big"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core"
-	"go-ethereum-timing/core/bloombits"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/ethdb"
-	"go-ethereum-timing/event"
-	"go-ethereum-timing/rpc"
+	"geth-timing/common"
+	"geth-timing/core"
+	"geth-timing/core/bloombits"
+	"geth-timing/core/types"
+	"geth-timing/ethdb"
+	"geth-timing/event"
+	"geth-timing/rpc"
 )
 
 type Backend interface {

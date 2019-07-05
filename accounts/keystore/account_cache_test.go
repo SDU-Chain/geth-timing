@@ -29,8 +29,8 @@ import (
 
 	"github.com/cespare/cp"
 	"github.com/davecgh/go-spew/spew"
-	"go-ethereum-timing/accounts"
-	"go-ethereum-timing/common"
+	"geth-timing/accounts"
+	"geth-timing/common"
 )
 
 var (

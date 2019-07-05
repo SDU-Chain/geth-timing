@@ -25,7 +25,7 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"go-ethereum-timing/core"
+	"geth-timing/core"
 )
 
 // Tests the go-ethereum to Aleth chainspec conversion for the Stureby testnet.

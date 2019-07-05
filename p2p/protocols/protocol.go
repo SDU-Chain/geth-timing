@@ -39,12 +39,12 @@ import (
 	"time"
 
 	opentracing "github.com/opentracing/opentracing-go"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/metrics"
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/rlp"
-	"go-ethereum-timing/swarm/spancontext"
-	"go-ethereum-timing/swarm/tracing"
+	"geth-timing/log"
+	"geth-timing/metrics"
+	"geth-timing/p2p"
+	"geth-timing/rlp"
+	"geth-timing/swarm/spancontext"
+	"geth-timing/swarm/tracing"
 )
 
 // error codes used by this  protocol scheme

@@ -29,9 +29,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/event"
-	"go-ethereum-timing/log"
+	"geth-timing/common"
+	"geth-timing/event"
+	"geth-timing/log"
 )
 
 const (

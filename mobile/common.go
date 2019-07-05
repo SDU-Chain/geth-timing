@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"strings"
 
-	"go-ethereum-timing/common"
+	"geth-timing/common"
 )
 
 // Hash represents the 32 byte Keccak256 hash of arbitrary data.

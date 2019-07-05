@@ -20,12 +20,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"go-ethereum-timing/consensus/ethash"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/core/vm"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/ethdb"
-	"go-ethereum-timing/params"
+	"geth-timing/consensus/ethash"
+	"geth-timing/core/types"
+	"geth-timing/core/vm"
+	"geth-timing/crypto"
+	"geth-timing/ethdb"
+	"geth-timing/params"
 )
 
 func ExampleGenerateChain() {

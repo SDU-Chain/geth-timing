@@ -25,9 +25,9 @@ import (
 	"fmt"
 	"io"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/swarm/bmt"
-	ch "go-ethereum-timing/swarm/chunk"
+	"geth-timing/common"
+	"geth-timing/swarm/bmt"
+	ch "geth-timing/swarm/chunk"
 	"golang.org/x/crypto/sha3"
 )
 

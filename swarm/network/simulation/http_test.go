@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/node"
-	"go-ethereum-timing/p2p/simulations/adapters"
+	"geth-timing/log"
+	"geth-timing/node"
+	"geth-timing/p2p/simulations/adapters"
 )
 
 func TestSimulationWithHTTPServer(t *testing.T) {

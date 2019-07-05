@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"go-ethereum-timing/core/vm"
+	"geth-timing/core/vm"
 )
 
 func TestVM(t *testing.T) {

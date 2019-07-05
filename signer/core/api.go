@@ -25,15 +25,15 @@ import (
 	"math/big"
 	"reflect"
 
-	"go-ethereum-timing/accounts"
-	"go-ethereum-timing/accounts/keystore"
-	"go-ethereum-timing/accounts/usbwallet"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/hexutil"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/internal/ethapi"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/rlp"
+	"geth-timing/accounts"
+	"geth-timing/accounts/keystore"
+	"geth-timing/accounts/usbwallet"
+	"geth-timing/common"
+	"geth-timing/common/hexutil"
+	"geth-timing/crypto"
+	"geth-timing/internal/ethapi"
+	"geth-timing/log"
+	"geth-timing/rlp"
 )
 
 // numberOfAccountsToDerive For hardware wallets, the number of accounts to derive
@@ -518,7 +518,7 @@ func (api *SignerAPI) SignTransaction(ctx context.Context, args SendTxArgs, meth
 //
 // The key used to calculate the signature is decrypted with the given password.
 //
-// https://go-ethereum-timing/wiki/Management-APIs#personal_sign
+// https://github.com/SadPencil/geth-timing/wiki/Management-APIs#personal_sign
 func (api *SignerAPI) Sign(ctx context.Context, addr common.MixedcaseAddress, data hexutil.Bytes) (hexutil.Bytes, error) {
 	sighash, msg := SignHash(data)
 	// We make the request prior to looking up if we actually have the account, to prevent

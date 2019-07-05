@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/ethdb"
+	"geth-timing/common"
+	"geth-timing/core/types"
+	"geth-timing/ethdb"
 )
 
 // Tests that positional lookup metadata can be stored and retrieved.

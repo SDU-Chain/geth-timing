@@ -19,7 +19,7 @@ package trie
 import (
 	"fmt"
 
-	"go-ethereum-timing/common"
+	"geth-timing/common"
 )
 
 // MissingNodeError is returned by the trie functions (TryGet, TryUpdate, TryDelete)

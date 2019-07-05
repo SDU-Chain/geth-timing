@@ -21,9 +21,9 @@ import (
 	"sync"
 	"time"
 
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/swarm/storage"
+	"geth-timing/log"
+	"geth-timing/p2p/enode"
+	"geth-timing/swarm/storage"
 )
 
 const (

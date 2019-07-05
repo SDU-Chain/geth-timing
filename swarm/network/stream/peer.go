@@ -24,14 +24,14 @@ import (
 	"time"
 
 	opentracing "github.com/opentracing/opentracing-go"
-	"go-ethereum-timing/metrics"
-	"go-ethereum-timing/p2p/protocols"
-	"go-ethereum-timing/swarm/log"
-	pq "go-ethereum-timing/swarm/network/priorityqueue"
-	"go-ethereum-timing/swarm/network/stream/intervals"
-	"go-ethereum-timing/swarm/spancontext"
-	"go-ethereum-timing/swarm/state"
-	"go-ethereum-timing/swarm/storage"
+	"geth-timing/metrics"
+	"geth-timing/p2p/protocols"
+	"geth-timing/swarm/log"
+	pq "geth-timing/swarm/network/priorityqueue"
+	"geth-timing/swarm/network/stream/intervals"
+	"geth-timing/swarm/spancontext"
+	"geth-timing/swarm/state"
+	"geth-timing/swarm/storage"
 )
 
 type notFoundError struct {

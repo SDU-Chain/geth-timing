@@ -6,13 +6,13 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/p2p/protocols"
-	"go-ethereum-timing/swarm/network"
-	"go-ethereum-timing/swarm/pot"
-	whisper "go-ethereum-timing/whisper/whisperv6"
+	"geth-timing/crypto"
+	"geth-timing/p2p"
+	"geth-timing/p2p/enode"
+	"geth-timing/p2p/protocols"
+	"geth-timing/swarm/network"
+	"geth-timing/swarm/pot"
+	whisper "geth-timing/whisper/whisperv6"
 )
 
 type testCase struct {

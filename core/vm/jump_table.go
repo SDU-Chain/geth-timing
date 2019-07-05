@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"go-ethereum-timing/params"
+	"geth-timing/params"
 )
 
 type (

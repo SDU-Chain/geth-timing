@@ -23,8 +23,8 @@ import (
 	"crypto/elliptic"
 	"fmt"
 
-	"go-ethereum-timing/common/math"
-	"go-ethereum-timing/crypto/secp256k1"
+	"geth-timing/common/math"
+	"geth-timing/crypto/secp256k1"
 )
 
 // Ecrecover returns the uncompressed public key that created the given signature.

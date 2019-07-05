@@ -29,7 +29,7 @@ import (
 	"net"
 	"sort"
 
-	"go-ethereum-timing/common"
+	"geth-timing/common"
 )
 
 const (

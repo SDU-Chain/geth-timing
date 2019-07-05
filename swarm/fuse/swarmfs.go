@@ -20,7 +20,7 @@ import (
 	"sync"
 	"time"
 
-	"go-ethereum-timing/swarm/api"
+	"geth-timing/swarm/api"
 )
 
 const (

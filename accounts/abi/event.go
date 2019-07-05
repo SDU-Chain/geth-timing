@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/crypto"
+	"geth-timing/common"
+	"geth-timing/crypto"
 )
 
 // Event is an event potentially triggered by the EVM's LOG mechanism. The Event

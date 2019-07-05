@@ -22,9 +22,9 @@ import (
 	"io"
 	"unsafe"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/hexutil"
-	"go-ethereum-timing/rlp"
+	"geth-timing/common"
+	"geth-timing/common/hexutil"
+	"geth-timing/rlp"
 )
 
 //go:generate gencodec -type Receipt -field-override receiptMarshaling -out gen_receipt_json.go

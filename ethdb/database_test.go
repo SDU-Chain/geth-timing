@@ -27,7 +27,7 @@ import (
 	"sync"
 	"testing"
 
-	"go-ethereum-timing/ethdb"
+	"geth-timing/ethdb"
 )
 
 func newTestLDB() (*ethdb.LDBDatabase, func()) {

@@ -29,8 +29,8 @@ import (
 	"time"
 
 	"github.com/mattn/go-colorable"
-	"go-ethereum-timing/log"
-	ch "go-ethereum-timing/swarm/chunk"
+	"geth-timing/log"
+	ch "geth-timing/swarm/chunk"
 )
 
 var (

@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"go-ethereum-timing/log"
+	"geth-timing/log"
 )
 
 // walletDockerfile is the Dockerfile required to run a web wallet.

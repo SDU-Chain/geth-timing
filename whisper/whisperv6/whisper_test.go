@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/common"
+	"geth-timing/common"
 	"golang.org/x/crypto/pbkdf2"
 )
 

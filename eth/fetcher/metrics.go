@@ -19,7 +19,7 @@
 package fetcher
 
 import (
-	"go-ethereum-timing/metrics"
+	"geth-timing/metrics"
 )
 
 var (

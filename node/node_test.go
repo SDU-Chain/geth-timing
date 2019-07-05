@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/rpc"
+	"geth-timing/crypto"
+	"geth-timing/p2p"
+	"geth-timing/rpc"
 )
 
 var (

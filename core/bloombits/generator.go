@@ -19,7 +19,7 @@ package bloombits
 import (
 	"errors"
 
-	"go-ethereum-timing/core/types"
+	"geth-timing/core/types"
 )
 
 var (

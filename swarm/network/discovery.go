@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"sync"
 
-	"go-ethereum-timing/swarm/pot"
+	"geth-timing/swarm/pot"
 )
 
 // discovery bzz extension for requesting and relaying node address records

@@ -27,12 +27,12 @@ import (
 	"time"
 
 	"github.com/pborman/uuid"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/metrics"
-	"go-ethereum-timing/rpc"
-	"go-ethereum-timing/swarm/api"
-	"go-ethereum-timing/swarm/storage"
-	"go-ethereum-timing/swarm/testutil"
+	"geth-timing/log"
+	"geth-timing/metrics"
+	"geth-timing/rpc"
+	"geth-timing/swarm/api"
+	"geth-timing/swarm/storage"
+	"geth-timing/swarm/testutil"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

@@ -19,10 +19,10 @@ package shhclient
 import (
 	"context"
 
-	"go-ethereum-timing"
-	"go-ethereum-timing/common/hexutil"
-	"go-ethereum-timing/rpc"
-	whisper "go-ethereum-timing/whisper/whisperv6"
+	"geth-timing"
+	"geth-timing/common/hexutil"
+	"geth-timing/rpc"
+	whisper "geth-timing/whisper/whisperv6"
 )
 
 // Client defines typed wrappers for the Whisper v6 RPC API.

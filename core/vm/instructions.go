@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/math"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/params"
+	"geth-timing/common"
+	"geth-timing/common/math"
+	"geth-timing/core/types"
+	"geth-timing/params"
 	"golang.org/x/crypto/sha3"
 )
 

@@ -30,9 +30,9 @@ import (
 	"time"
 
 	"github.com/pborman/uuid"
-	"go-ethereum-timing/accounts"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/crypto"
+	"geth-timing/accounts"
+	"geth-timing/common"
+	"geth-timing/crypto"
 )
 
 const (

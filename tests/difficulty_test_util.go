@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"math/big"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/math"
-	"go-ethereum-timing/consensus/ethash"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/params"
+	"geth-timing/common"
+	"geth-timing/common/math"
+	"geth-timing/consensus/ethash"
+	"geth-timing/core/types"
+	"geth-timing/params"
 )
 
 //go:generate gencodec -type DifficultyTest -field-override difficultyTestMarshaling -out gen_difficultytest.go

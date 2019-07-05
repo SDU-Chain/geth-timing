@@ -21,9 +21,9 @@ import (
 	"sync"
 
 	lru "github.com/hashicorp/golang-lru"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/ethdb"
-	"go-ethereum-timing/trie"
+	"geth-timing/common"
+	"geth-timing/ethdb"
+	"geth-timing/trie"
 )
 
 // Trie cache generation limit after which to evict trie nodes from memory.

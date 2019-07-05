@@ -23,17 +23,17 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/math"
-	"go-ethereum-timing/core"
-	"go-ethereum-timing/core/rawdb"
-	"go-ethereum-timing/core/state"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/core/vm"
-	"go-ethereum-timing/ethdb"
-	"go-ethereum-timing/light"
-	"go-ethereum-timing/params"
-	"go-ethereum-timing/rlp"
+	"geth-timing/common"
+	"geth-timing/common/math"
+	"geth-timing/core"
+	"geth-timing/core/rawdb"
+	"geth-timing/core/state"
+	"geth-timing/core/types"
+	"geth-timing/core/vm"
+	"geth-timing/ethdb"
+	"geth-timing/light"
+	"geth-timing/params"
+	"geth-timing/rlp"
 )
 
 type odrTestFn func(ctx context.Context, db ethdb.Database, config *params.ChainConfig, bc *core.BlockChain, lc *light.LightChain, bhash common.Hash) []byte

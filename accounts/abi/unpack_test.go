@@ -27,7 +27,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"go-ethereum-timing/common"
+	"geth-timing/common"
 )
 
 type unpackTest struct {

@@ -23,11 +23,11 @@ package ens
 import (
 	"strings"
 
-	"go-ethereum-timing/accounts/abi/bind"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/contracts/ens/contract"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/crypto"
+	"geth-timing/accounts/abi/bind"
+	"geth-timing/common"
+	"geth-timing/contracts/ens/contract"
+	"geth-timing/core/types"
+	"geth-timing/crypto"
 )
 
 var (

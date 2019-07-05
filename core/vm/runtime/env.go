@@ -17,9 +17,9 @@
 package runtime
 
 import (
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core"
-	"go-ethereum-timing/core/vm"
+	"geth-timing/common"
+	"geth-timing/core"
+	"geth-timing/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

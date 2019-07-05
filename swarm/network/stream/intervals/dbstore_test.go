@@ -21,7 +21,7 @@ import (
 	"os"
 	"testing"
 
-	"go-ethereum-timing/swarm/state"
+	"geth-timing/swarm/state"
 )
 
 // TestDBStore tests basic functionality of DBStore.

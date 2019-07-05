@@ -20,8 +20,8 @@ import (
 	"sync"
 	"testing"
 
-	"go-ethereum-timing/node"
-	"go-ethereum-timing/p2p/simulations/adapters"
+	"geth-timing/node"
+	"geth-timing/p2p/simulations/adapters"
 )
 
 // TestServiceBucket tests all bucket functionality using subtests.

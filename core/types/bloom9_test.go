@@ -54,7 +54,7 @@ func TestBloom(t *testing.T) {
 import (
 	"testing"
 
-	"go-ethereum-timing/core/state"
+	"geth-timing/core/state"
 )
 
 func TestBloom9(t *testing.T) {

@@ -19,8 +19,8 @@ package main
 import (
 	"os"
 
-	"go-ethereum-timing/cmd/utils"
-	"go-ethereum-timing/log"
+	"geth-timing/cmd/utils"
+	"geth-timing/log"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

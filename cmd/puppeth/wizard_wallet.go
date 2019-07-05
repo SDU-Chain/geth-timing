@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"go-ethereum-timing/log"
+	"geth-timing/log"
 )
 
 // deployWallet creates a new web wallet based on some user input.

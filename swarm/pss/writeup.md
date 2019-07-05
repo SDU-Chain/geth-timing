@@ -36,22 +36,22 @@ go test -race -v ./swarm/pss -cpu 4 -run TestNetwork
   1 ==================
   2 WARNING: DATA RACE
   3 Read at 0x00c424d456a0 by goroutine 1089:
-  4   go-ethereum-timing/swarm/pss.(*Pss).forward.func1()
-  5       /Users/nonsense/code/src/go-ethereum-timing/swarm/pss/pss.go:654 +0x44f
-  6   go-ethereum-timing/swarm/network.(*Kademlia).eachConn.func1()
-  7       /Users/nonsense/code/src/go-ethereum-timing/swarm/network/kademlia.go:350 +0xc9
-  8   go-ethereum-timing/pot.(*Pot).eachNeighbour.func1()
-  9       /Users/nonsense/code/src/go-ethereum-timing/pot/pot.go:599 +0x59
+  4   geth-timing/swarm/pss.(*Pss).forward.func1()
+  5       /Users/nonsense/code/src/geth-timing/swarm/pss/pss.go:654 +0x44f
+  6   geth-timing/swarm/network.(*Kademlia).eachConn.func1()
+  7       /Users/nonsense/code/src/geth-timing/swarm/network/kademlia.go:350 +0xc9
+  8   geth-timing/pot.(*Pot).eachNeighbour.func1()
+  9       /Users/nonsense/code/src/geth-timing/pot/pot.go:599 +0x59
   ...
 
  28
  29 Previous write at 0x00c424d456a0 by goroutine 829:
- 30   go-ethereum-timing/swarm/pss.(*Pss).Run()
- 31       /Users/nonsense/code/src/go-ethereum-timing/swarm/pss/pss.go:192 +0x16a
- 32   go-ethereum-timing/swarm/pss.(*Pss).Run-fm()
- 33       /Users/nonsense/code/src/go-ethereum-timing/swarm/pss/pss.go:185 +0x63
- 34   go-ethereum-timing/p2p.(*Peer).startProtocols.func1()
- 35       /Users/nonsense/code/src/go-ethereum-timing/p2p/peer.go:347 +0x8b
+ 30   geth-timing/swarm/pss.(*Pss).Run()
+ 31       /Users/nonsense/code/src/geth-timing/swarm/pss/pss.go:192 +0x16a
+ 32   geth-timing/swarm/pss.(*Pss).Run-fm()
+ 33       /Users/nonsense/code/src/geth-timing/swarm/pss/pss.go:185 +0x63
+ 34   geth-timing/p2p.(*Peer).startProtocols.func1()
+ 35       /Users/nonsense/code/src/geth-timing/p2p/peer.go:347 +0x8b
  ...
 ```
 

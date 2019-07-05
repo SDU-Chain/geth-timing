@@ -22,11 +22,11 @@ import (
 	"sync"
 	"time"
 
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/node"
-	"go-ethereum-timing/p2p/simulations/adapters"
-	"go-ethereum-timing/swarm/network"
-	"go-ethereum-timing/swarm/network/simulation"
+	"geth-timing/log"
+	"geth-timing/node"
+	"geth-timing/p2p/simulations/adapters"
+	"geth-timing/swarm/network"
+	"geth-timing/swarm/network/simulation"
 )
 
 // Every node can have a Kademlia associated using the node bucket under

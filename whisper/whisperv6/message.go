@@ -28,10 +28,10 @@ import (
 	mrand "math/rand"
 	"strconv"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/crypto/ecies"
-	"go-ethereum-timing/log"
+	"geth-timing/common"
+	"geth-timing/crypto"
+	"geth-timing/crypto/ecies"
+	"geth-timing/log"
 )
 
 // MessageParams specifies the exact way a message should be wrapped

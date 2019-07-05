@@ -35,10 +35,10 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/rlp"
+	"geth-timing/common"
+	"geth-timing/crypto"
+	"geth-timing/p2p/enode"
+	"geth-timing/rlp"
 )
 
 func init() {

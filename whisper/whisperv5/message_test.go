@@ -21,8 +21,8 @@ import (
 	mrand "math/rand"
 	"testing"
 
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/rlp"
+	"geth-timing/crypto"
+	"geth-timing/rlp"
 )
 
 func generateMessageParams() (*MessageParams, error) {

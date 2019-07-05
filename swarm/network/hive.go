@@ -21,11 +21,11 @@ import (
 	"sync"
 	"time"
 
-	"go-ethereum-timing/common/hexutil"
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/swarm/log"
-	"go-ethereum-timing/swarm/state"
+	"geth-timing/common/hexutil"
+	"geth-timing/p2p"
+	"geth-timing/p2p/enode"
+	"geth-timing/swarm/log"
+	"geth-timing/swarm/state"
 )
 
 /*

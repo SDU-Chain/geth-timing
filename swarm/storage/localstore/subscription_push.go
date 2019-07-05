@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/swarm/shed"
-	"go-ethereum-timing/swarm/storage"
+	"geth-timing/log"
+	"geth-timing/swarm/shed"
+	"geth-timing/swarm/storage"
 )
 
 // SubscribePush returns a channel that provides storage chunks with ordering from push syncing index.

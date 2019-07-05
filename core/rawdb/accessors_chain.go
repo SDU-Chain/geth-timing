@@ -21,10 +21,10 @@ import (
 	"encoding/binary"
 	"math/big"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/rlp"
+	"geth-timing/common"
+	"geth-timing/core/types"
+	"geth-timing/log"
+	"geth-timing/rlp"
 )
 
 // ReadCanonicalHash retrieves the hash assigned to a canonical block number.

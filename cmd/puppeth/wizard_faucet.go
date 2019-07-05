@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"go-ethereum-timing/accounts/keystore"
-	"go-ethereum-timing/log"
+	"geth-timing/accounts/keystore"
+	"geth-timing/log"
 )
 
 // deployFaucet queries the user for various input on deploying a faucet, after

@@ -27,8 +27,8 @@ import (
 	"time"
 
 	"github.com/robertkrimen/otto"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/internal/jsre/deps"
+	"geth-timing/common"
+	"geth-timing/internal/jsre/deps"
 )
 
 var (

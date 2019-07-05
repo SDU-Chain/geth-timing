@@ -22,7 +22,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"go-ethereum-timing/core/asm"
+	"geth-timing/core/asm"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

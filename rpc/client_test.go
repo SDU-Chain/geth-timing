@@ -31,7 +31,7 @@ import (
 	"time"
 
 	"github.com/davecgh/go-spew/spew"
-	"go-ethereum-timing/log"
+	"geth-timing/log"
 )
 
 func TestClientRequest(t *testing.T) {
@@ -323,7 +323,7 @@ func TestClientSubscribeClose(t *testing.T) {
 	}
 }
 
-// This test reproduces https://go-ethereum-timing/issues/17837 where the
+// This test reproduces https://github.com/SadPencil/geth-timing/issues/17837 where the
 // client hangs during shutdown when Unsubscribe races with Client.Close.
 func TestClientCloseUnsubscribeRace(t *testing.T) {
 	service := &NotificationTestService{}

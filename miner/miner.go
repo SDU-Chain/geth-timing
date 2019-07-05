@@ -22,15 +22,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/consensus"
-	"go-ethereum-timing/core"
-	"go-ethereum-timing/core/state"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/eth/downloader"
-	"go-ethereum-timing/event"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/params"
+	"geth-timing/common"
+	"geth-timing/consensus"
+	"geth-timing/core"
+	"geth-timing/core/state"
+	"geth-timing/core/types"
+	"geth-timing/eth/downloader"
+	"geth-timing/event"
+	"geth-timing/log"
+	"geth-timing/params"
 )
 
 // Backend wraps all methods required for mining.

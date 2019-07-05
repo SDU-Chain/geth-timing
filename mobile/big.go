@@ -22,7 +22,7 @@ import (
 	"errors"
 	"math/big"
 
-	"go-ethereum-timing/common"
+	"geth-timing/common"
 )
 
 // A BigInt represents a signed multi-precision integer.

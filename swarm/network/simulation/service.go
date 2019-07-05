@@ -17,9 +17,9 @@
 package simulation
 
 import (
-	"go-ethereum-timing/node"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/p2p/simulations/adapters"
+	"geth-timing/node"
+	"geth-timing/p2p/enode"
+	"geth-timing/p2p/simulations/adapters"
 )
 
 // Service returns a single Service by name on a particular node

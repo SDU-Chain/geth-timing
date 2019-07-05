@@ -21,12 +21,12 @@ import (
 	"math/big"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/state"
-	"go-ethereum-timing/core/vm"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/ethdb"
-	"go-ethereum-timing/params"
+	"geth-timing/common"
+	"geth-timing/core/state"
+	"geth-timing/core/vm"
+	"geth-timing/crypto"
+	"geth-timing/ethdb"
+	"geth-timing/params"
 )
 
 // Config is a basic type specifying certain configuration flags for running

@@ -23,15 +23,15 @@ import (
 	"os"
 	"testing"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/math"
-	"go-ethereum-timing/consensus/ethash"
-	"go-ethereum-timing/core/rawdb"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/core/vm"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/ethdb"
-	"go-ethereum-timing/params"
+	"geth-timing/common"
+	"geth-timing/common/math"
+	"geth-timing/consensus/ethash"
+	"geth-timing/core/rawdb"
+	"geth-timing/core/types"
+	"geth-timing/core/vm"
+	"geth-timing/crypto"
+	"geth-timing/ethdb"
+	"geth-timing/params"
 )
 
 func BenchmarkInsertChain_empty_memdb(b *testing.B) {

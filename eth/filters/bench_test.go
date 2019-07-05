@@ -23,14 +23,14 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/bitutil"
-	"go-ethereum-timing/core/bloombits"
-	"go-ethereum-timing/core/rawdb"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/ethdb"
-	"go-ethereum-timing/event"
-	"go-ethereum-timing/node"
+	"geth-timing/common"
+	"geth-timing/common/bitutil"
+	"geth-timing/core/bloombits"
+	"geth-timing/core/rawdb"
+	"geth-timing/core/types"
+	"geth-timing/ethdb"
+	"geth-timing/event"
+	"geth-timing/node"
 )
 
 func BenchmarkBloomBits512(b *testing.B) {

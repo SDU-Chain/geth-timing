@@ -9,17 +9,17 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/common/hexutil"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/node"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/p2p/simulations"
-	"go-ethereum-timing/p2p/simulations/adapters"
-	"go-ethereum-timing/swarm/network"
-	"go-ethereum-timing/swarm/pss"
-	"go-ethereum-timing/swarm/state"
-	whisper "go-ethereum-timing/whisper/whisperv6"
+	"geth-timing/common/hexutil"
+	"geth-timing/crypto"
+	"geth-timing/log"
+	"geth-timing/node"
+	"geth-timing/p2p/enode"
+	"geth-timing/p2p/simulations"
+	"geth-timing/p2p/simulations/adapters"
+	"geth-timing/swarm/network"
+	"geth-timing/swarm/pss"
+	"geth-timing/swarm/state"
+	whisper "geth-timing/whisper/whisperv6"
 )
 
 var (

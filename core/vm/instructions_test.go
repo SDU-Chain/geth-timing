@@ -21,9 +21,9 @@ import (
 	"math/big"
 	"testing"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/params"
+	"geth-timing/common"
+	"geth-timing/crypto"
+	"geth-timing/params"
 )
 
 type twoOperandTest struct {

@@ -23,11 +23,11 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/p2p/protocols"
-	p2ptest "go-ethereum-timing/p2p/testing"
+	"geth-timing/log"
+	"geth-timing/p2p"
+	"geth-timing/p2p/enode"
+	"geth-timing/p2p/protocols"
+	p2ptest "geth-timing/p2p/testing"
 )
 
 const (

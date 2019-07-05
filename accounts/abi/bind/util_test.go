@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/accounts/abi/bind"
-	"go-ethereum-timing/accounts/abi/bind/backends"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/crypto"
+	"geth-timing/accounts/abi/bind"
+	"geth-timing/accounts/abi/bind/backends"
+	"geth-timing/common"
+	"geth-timing/core"
+	"geth-timing/core/types"
+	"geth-timing/crypto"
 )
 
 var testKey, _ = crypto.HexToECDSA("b71c71a67e1177ad4e901695e1b4b9ee17ae16c6668d313eac2f96dbcda3f291")

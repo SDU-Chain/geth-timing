@@ -21,10 +21,10 @@ import (
 	"math/big"
 	"testing"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/ethdb"
-	"go-ethereum-timing/rlp"
+	"geth-timing/common"
+	"geth-timing/core/types"
+	"geth-timing/ethdb"
+	"geth-timing/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

@@ -25,7 +25,7 @@ import (
 	"sort"
 	"time"
 
-	"go-ethereum-timing/log"
+	"geth-timing/log"
 )
 
 const (

@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"reflect"
 
-	"go-ethereum-timing/accounts/abi"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/crypto"
+	"geth-timing/accounts/abi"
+	"geth-timing/common"
+	"geth-timing/crypto"
 )
 
 // makeTopics converts a filter query argument list into a filter topic set.

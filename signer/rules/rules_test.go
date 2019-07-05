@@ -22,13 +22,13 @@ import (
 	"strings"
 	"testing"
 
-	"go-ethereum-timing/accounts"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/hexutil"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/internal/ethapi"
-	"go-ethereum-timing/signer/core"
-	"go-ethereum-timing/signer/storage"
+	"geth-timing/accounts"
+	"geth-timing/common"
+	"geth-timing/common/hexutil"
+	"geth-timing/core/types"
+	"geth-timing/internal/ethapi"
+	"geth-timing/signer/core"
+	"geth-timing/signer/storage"
 )
 
 const JS = `

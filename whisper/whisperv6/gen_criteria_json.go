@@ -5,7 +5,7 @@ package whisperv6
 import (
 	"encoding/json"
 
-	"go-ethereum-timing/common/hexutil"
+	"geth-timing/common/hexutil"
 )
 
 var _ = (*criteriaOverride)(nil)

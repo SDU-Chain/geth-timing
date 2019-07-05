@@ -26,11 +26,11 @@ import (
 	"strconv"
 
 	"github.com/docker/docker/pkg/reexec"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/node"
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/rpc"
+	"geth-timing/crypto"
+	"geth-timing/node"
+	"geth-timing/p2p"
+	"geth-timing/p2p/enode"
+	"geth-timing/rpc"
 )
 
 // Node represents a node in a simulation network which is created by a

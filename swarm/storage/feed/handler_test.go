@@ -26,11 +26,11 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/swarm/chunk"
-	"go-ethereum-timing/swarm/storage"
-	"go-ethereum-timing/swarm/storage/feed/lookup"
+	"geth-timing/crypto"
+	"geth-timing/log"
+	"geth-timing/swarm/chunk"
+	"geth-timing/swarm/storage"
+	"geth-timing/swarm/storage/feed/lookup"
 )
 
 var (

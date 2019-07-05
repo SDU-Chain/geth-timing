@@ -21,17 +21,17 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/consensus"
-	"go-ethereum-timing/consensus/clique"
-	"go-ethereum-timing/consensus/ethash"
-	"go-ethereum-timing/core"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/core/vm"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/ethdb"
-	"go-ethereum-timing/event"
-	"go-ethereum-timing/params"
+	"geth-timing/common"
+	"geth-timing/consensus"
+	"geth-timing/consensus/clique"
+	"geth-timing/consensus/ethash"
+	"geth-timing/core"
+	"geth-timing/core/types"
+	"geth-timing/core/vm"
+	"geth-timing/crypto"
+	"geth-timing/ethdb"
+	"geth-timing/event"
+	"geth-timing/params"
 )
 
 var (

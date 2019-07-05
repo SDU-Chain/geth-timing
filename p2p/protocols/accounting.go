@@ -19,7 +19,7 @@ package protocols
 import (
 	"time"
 
-	"go-ethereum-timing/metrics"
+	"geth-timing/metrics"
 )
 
 // define some metrics

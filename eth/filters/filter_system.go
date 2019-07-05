@@ -25,14 +25,14 @@ import (
 	"sync"
 	"time"
 
-	ethereum "go-ethereum-timing"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core"
-	"go-ethereum-timing/core/rawdb"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/event"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/rpc"
+	ethereum "geth-timing"
+	"geth-timing/common"
+	"geth-timing/core"
+	"geth-timing/core/rawdb"
+	"geth-timing/core/types"
+	"geth-timing/event"
+	"geth-timing/log"
+	"geth-timing/rpc"
 )
 
 // Type determines the kind of filter and is used to put the filter in to

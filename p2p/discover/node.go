@@ -23,10 +23,10 @@ import (
 	"net"
 	"time"
 
-	"go-ethereum-timing/common/math"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/crypto/secp256k1"
-	"go-ethereum-timing/p2p/enode"
+	"geth-timing/common/math"
+	"geth-timing/crypto"
+	"geth-timing/crypto/secp256k1"
+	"geth-timing/p2p/enode"
 )
 
 // node represents a host on the network.

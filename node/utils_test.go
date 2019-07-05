@@ -22,8 +22,8 @@ package node
 import (
 	"reflect"
 
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/rpc"
+	"geth-timing/p2p"
+	"geth-timing/rpc"
 )
 
 // NoopService is a trivial implementation of the Service interface.

@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/common"
+	"geth-timing/common"
 )
 
 // In this test, nodes try to randomly resolve each other.

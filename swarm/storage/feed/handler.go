@@ -24,10 +24,10 @@ import (
 	"fmt"
 	"sync"
 
-	"go-ethereum-timing/swarm/storage/feed/lookup"
+	"geth-timing/swarm/storage/feed/lookup"
 
-	"go-ethereum-timing/swarm/log"
-	"go-ethereum-timing/swarm/storage"
+	"geth-timing/swarm/log"
+	"geth-timing/swarm/storage"
 )
 
 type Handler struct {

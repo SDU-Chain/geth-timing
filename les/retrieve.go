@@ -26,8 +26,8 @@ import (
 	"sync"
 	"time"
 
-	"go-ethereum-timing/common/mclock"
-	"go-ethereum-timing/light"
+	"geth-timing/common/mclock"
+	"geth-timing/light"
 )
 
 var (

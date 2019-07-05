@@ -19,10 +19,10 @@ package core
 import (
 	"math/big"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/consensus"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/core/vm"
+	"geth-timing/common"
+	"geth-timing/consensus"
+	"geth-timing/core/types"
+	"geth-timing/core/vm"
 )
 
 // ChainContext supports retrieving headers and consensus parameters from the

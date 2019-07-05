@@ -30,12 +30,12 @@ import (
 	cli "gopkg.in/urfave/cli.v1"
 
 	"github.com/naoina/toml"
-	"go-ethereum-timing/cmd/utils"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/node"
+	"geth-timing/cmd/utils"
+	"geth-timing/common"
+	"geth-timing/log"
+	"geth-timing/node"
 
-	bzzapi "go-ethereum-timing/swarm/api"
+	bzzapi "geth-timing/swarm/api"
 )
 
 var (
@@ -97,7 +97,7 @@ var tomlSettings = toml.Config{
 	MissingField: func(rt reflect.Type, field string) error {
 		link := ""
 		if unicode.IsUpper(rune(rt.Name()[0])) && rt.PkgPath() != "main" {
-			link = fmt.Sprintf(", check go-ethereum-timing/swarm/api/config.go for available fields")
+			link = fmt.Sprintf(", check geth-timing/swarm/api/config.go for available fields")
 		}
 		return fmt.Errorf("field '%s' is not defined in %s%s", field, rt.String(), link)
 	},

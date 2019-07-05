@@ -26,8 +26,8 @@ import (
 	"strings"
 	"text/template"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/log"
+	"geth-timing/common"
+	"geth-timing/log"
 )
 
 // nodeDockerfile is the Dockerfile required to run an Ethereum node.

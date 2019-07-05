@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/swarm/storage/feed/lookup"
+	"geth-timing/common"
+	"geth-timing/swarm/storage/feed/lookup"
 )
 
 // Query is used to specify constraints when performing an update lookup

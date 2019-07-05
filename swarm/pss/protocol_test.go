@@ -25,10 +25,10 @@ import (
 	"testing"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/swarm/log"
+	"geth-timing/common"
+	"geth-timing/p2p"
+	"geth-timing/p2p/enode"
+	"geth-timing/swarm/log"
 )
 
 type protoCtrl struct {

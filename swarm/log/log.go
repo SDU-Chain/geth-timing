@@ -1,8 +1,8 @@
 package log
 
 import (
-	l "go-ethereum-timing/log"
-	"go-ethereum-timing/metrics"
+	l "geth-timing/log"
+	"geth-timing/metrics"
 )
 
 const (

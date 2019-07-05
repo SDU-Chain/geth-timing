@@ -20,14 +20,14 @@ import (
 	"fmt"
 	"math/big"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core"
-	"go-ethereum-timing/eth"
-	"go-ethereum-timing/ethdb"
-	"go-ethereum-timing/light"
-	"go-ethereum-timing/p2p"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/params"
+	"geth-timing/common"
+	"geth-timing/core"
+	"geth-timing/eth"
+	"geth-timing/ethdb"
+	"geth-timing/light"
+	"geth-timing/p2p"
+	"geth-timing/p2p/enode"
+	"geth-timing/params"
 )
 
 // lesCommons contains fields needed by both server and client.

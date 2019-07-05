@@ -27,14 +27,14 @@ import (
 	"sync"
 	"time"
 
-	"go-ethereum-timing/accounts/abi/bind"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/contracts/chequebook"
-	"go-ethereum-timing/contracts/chequebook/contract"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/swarm/log"
-	"go-ethereum-timing/swarm/services/swap/swap"
+	"geth-timing/accounts/abi/bind"
+	"geth-timing/common"
+	"geth-timing/contracts/chequebook"
+	"geth-timing/contracts/chequebook/contract"
+	"geth-timing/core/types"
+	"geth-timing/crypto"
+	"geth-timing/swarm/log"
+	"geth-timing/swarm/services/swap/swap"
 )
 
 // SwAP       Swarm Accounting Protocol with

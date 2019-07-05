@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"go-ethereum-timing/crypto"
+	"geth-timing/crypto"
 )
 
 // Method represents a callable given a `Name` and whether the method is a constant.

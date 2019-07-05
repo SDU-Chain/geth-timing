@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	"go-ethereum-timing/common/mclock"
-	"go-ethereum-timing/event"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/p2p/enode"
-	"go-ethereum-timing/p2p/enr"
-	"go-ethereum-timing/rlp"
+	"geth-timing/common/mclock"
+	"geth-timing/event"
+	"geth-timing/log"
+	"geth-timing/p2p/enode"
+	"geth-timing/p2p/enr"
+	"geth-timing/rlp"
 )
 
 var (

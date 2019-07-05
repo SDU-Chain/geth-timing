@@ -26,8 +26,8 @@ import (
 	"strings"
 	"testing"
 
-	"go-ethereum-timing/swarm"
-	"go-ethereum-timing/swarm/testutil"
+	"geth-timing/swarm"
+	"geth-timing/swarm/testutil"
 )
 
 // TestCLISwarmExportImport perform the following test:

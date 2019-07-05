@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/p2p/simulations"
+	"geth-timing/log"
+	"geth-timing/p2p/simulations"
 )
 
 // Package defaults.

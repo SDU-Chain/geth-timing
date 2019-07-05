@@ -20,7 +20,7 @@ import (
 	"errors"
 	"sync"
 
-	"go-ethereum-timing/common"
+	"geth-timing/common"
 )
 
 /*

@@ -35,12 +35,12 @@ import (
 
 	mmap "github.com/edsrzf/mmap-go"
 	"github.com/hashicorp/golang-lru/simplelru"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/consensus"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/metrics"
-	"go-ethereum-timing/rpc"
+	"geth-timing/common"
+	"geth-timing/consensus"
+	"geth-timing/core/types"
+	"geth-timing/log"
+	"geth-timing/metrics"
+	"geth-timing/rpc"
 )
 
 var ErrInvalidDumpMagic = errors.New("invalid dump magic")

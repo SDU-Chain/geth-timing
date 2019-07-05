@@ -18,9 +18,9 @@ package localstore
 
 import (
 	"github.com/syndtr/goleveldb/leveldb"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/swarm/shed"
-	"go-ethereum-timing/swarm/storage"
+	"geth-timing/log"
+	"geth-timing/swarm/shed"
+	"geth-timing/swarm/storage"
 )
 
 // ModeGet enumerates different Getter modes.

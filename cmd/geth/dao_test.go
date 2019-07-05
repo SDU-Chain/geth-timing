@@ -23,10 +23,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/rawdb"
-	"go-ethereum-timing/ethdb"
-	"go-ethereum-timing/params"
+	"geth-timing/common"
+	"geth-timing/core/rawdb"
+	"geth-timing/ethdb"
+	"geth-timing/params"
 )
 
 // Genesis block for nodes which don't care about the DAO fork (i.e. not configured)

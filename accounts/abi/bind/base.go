@@ -22,12 +22,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"go-ethereum-timing"
-	"go-ethereum-timing/accounts/abi"
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/core/types"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/event"
+	"geth-timing"
+	"geth-timing/accounts/abi"
+	"geth-timing/common"
+	"geth-timing/core/types"
+	"geth-timing/crypto"
+	"geth-timing/event"
 )
 
 // SignerFn is a signer function callback when a contract requires a method to

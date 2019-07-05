@@ -19,7 +19,7 @@ package core
 import (
 	"runtime"
 
-	"go-ethereum-timing/core/types"
+	"geth-timing/core/types"
 )
 
 // senderCacher is a concurrent transaction sender recoverer and cacher.

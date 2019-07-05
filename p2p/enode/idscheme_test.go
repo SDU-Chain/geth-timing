@@ -25,9 +25,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"go-ethereum-timing/crypto"
-	"go-ethereum-timing/p2p/enr"
-	"go-ethereum-timing/rlp"
+	"geth-timing/crypto"
+	"geth-timing/p2p/enr"
+	"geth-timing/rlp"
 )
 
 var (

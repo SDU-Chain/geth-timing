@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"testing"
 
-	"go-ethereum-timing"
-	"go-ethereum-timing/common"
+	"geth-timing"
+	"geth-timing/common"
 )
 
 // Verify that Client implements the ethereum interfaces.

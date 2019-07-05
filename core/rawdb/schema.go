@@ -20,8 +20,8 @@ package rawdb
 import (
 	"encoding/binary"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/metrics"
+	"geth-timing/common"
+	"geth-timing/metrics"
 )
 
 // The fields below define the low level database schema prefixing.

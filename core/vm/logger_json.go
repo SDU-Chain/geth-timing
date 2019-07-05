@@ -22,8 +22,8 @@ import (
 	"math/big"
 	"time"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/common/math"
+	"geth-timing/common"
+	"geth-timing/common/math"
 )
 
 type JSONLogger struct {

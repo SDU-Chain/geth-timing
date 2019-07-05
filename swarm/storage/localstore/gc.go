@@ -93,8 +93,8 @@ import (
 	"time"
 
 	"github.com/syndtr/goleveldb/leveldb"
-	"go-ethereum-timing/log"
-	"go-ethereum-timing/swarm/shed"
+	"geth-timing/log"
+	"geth-timing/swarm/shed"
 )
 
 var (

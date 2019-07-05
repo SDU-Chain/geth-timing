@@ -22,8 +22,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"go-ethereum-timing/common"
-	"go-ethereum-timing/ethdb"
+	"geth-timing/common"
+	"geth-timing/ethdb"
 )
 
 func TestIterator(t *testing.T) {
