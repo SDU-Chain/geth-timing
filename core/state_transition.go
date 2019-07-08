@@ -221,12 +221,14 @@ func (st *StateTransition) TransitionDb() (ret []byte, usedGas uint64, failed bo
 
 	endTime := time.Now()
 	executionTime := endTime.Sub(startTime)
-	log2.Record(log2.TimingLog{
-		From:              st.msg.From().String(),
-		To:                st.msg.From().String(),
-		TimeCost:          executionTime.Nanoseconds(),
-		DataFirst4ByteHex: hex.EncodeToString(st.msg.Data()[0:4]),
-		Timestamp:         time.Now().Unix(),
+
+	// timing - omit on error
+	_ = log2.Record(map[string]interface{}{
+		"From":              st.msg.From().String(),
+		"To":                st.msg.From().String(),
+		"TimeCost":          executionTime.Nanoseconds(),
+		"DataFirst4ByteHex": hex.EncodeToString(st.msg.Data()[0:4]),
+		"Timestamp":         time.Now().Unix(),
 	})
 
 	if vmerr != nil {
