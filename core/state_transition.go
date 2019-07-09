@@ -17,17 +17,13 @@
 package core
 
 import (
-	"encoding/hex"
 	"errors"
-	"geth-timing/log2"
-	"math"
-	"math/big"
-	"time"
-
 	"geth-timing/common"
 	"geth-timing/core/vm"
 	"geth-timing/log"
 	"geth-timing/params"
+	"math"
+	"math/big"
 )
 
 var (
@@ -209,7 +205,7 @@ func (st *StateTransition) TransitionDb() (ret []byte, usedGas uint64, failed bo
 		vmerr error
 	)
 
-	startTime := time.Now()
+	//startTime := time.Now()
 
 	if contractCreation {
 		ret, _, st.gas, vmerr = evm.Create(sender, st.data, st.gas, st.value)
@@ -219,17 +215,18 @@ func (st *StateTransition) TransitionDb() (ret []byte, usedGas uint64, failed bo
 		ret, st.gas, vmerr = evm.Call(sender, st.to(), st.data, st.gas, st.value)
 	}
 
-	endTime := time.Now()
-	executionTime := endTime.Sub(startTime)
+	//endTime := time.Now()
+	//executionTime := endTime.Sub(startTime)
 
-	// timing - omit on error
-	_ = log2.Record(map[string]interface{}{
-		"From":              st.msg.From().String(),
-		"To":                st.msg.From().String(),
-		"TimeCost":          executionTime.Nanoseconds(),
-		"DataFirst4ByteHex": hex.EncodeToString(st.msg.Data()[0:4]),
-		"Timestamp":         time.Now().Unix(),
-	})
+	//// timing - omit on error
+	//_ = log2.Record(map[string]interface{}{
+	//	"Type":              "TransactionEnd",
+	//	"From":              st.msg.From().String(),
+	//	"To":                st.msg.To().String(),
+	//	"TimeCost":          executionTime.Nanoseconds(),
+	//	"DataFirst4ByteHex": hex.EncodeToString(st.msg.Data()[0:4]),
+	//	//"Data":              hex.EncodeToString(st.msg.Data()),
+	//})
 
 	if vmerr != nil {
 		log.Debug("VM returned with error", "err", vmerr)

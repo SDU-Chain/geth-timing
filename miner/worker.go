@@ -19,12 +19,12 @@ package miner
 import (
 	"bytes"
 	"errors"
+	"geth-timing/log2"
 	"math/big"
 	"sync"
 	"sync/atomic"
 	"time"
 
-	mapset "github.com/deckarep/golang-set"
 	"geth-timing/common"
 	"geth-timing/consensus"
 	"geth-timing/consensus/misc"
@@ -34,6 +34,7 @@ import (
 	"geth-timing/event"
 	"geth-timing/log"
 	"geth-timing/params"
+	mapset "github.com/deckarep/golang-set"
 )
 
 const (
@@ -951,6 +952,16 @@ func (w *worker) commit(uncles []*types.Header, interval func(), update bool, st
 		receipts[i] = new(types.Receipt)
 		*receipts[i] = *l
 	}
+
+	// timing
+	{
+		txHashs := make([]string, 0)
+		for _, v := range w.current.txs {
+			txHashs = append(txHashs, v.Hash().Hex())
+		}
+		_ = log2.Record(map[string]interface{}{"Type": "BlockGen", "TransactionHashs": txHashs})
+	}
+
 	s := w.current.state.Copy()
 	block, err := w.engine.Finalize(w.chain, w.current.header, s, w.current.txs, uncles, w.current.receipts)
 	if err != nil {
