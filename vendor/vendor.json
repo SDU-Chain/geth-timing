@@ -141,6 +141,18 @@
 			"revisionTime": "2017-01-17T22:23:42Z"
 		},
 		{
+          "checksumSHA1": "u9yPyzxDLfX3DomC0riuXvV2W6w=",
+          "path": "github.com/go-kit/kit/log",
+          "revision": "150a65a7ec6156b4b640c1fd55f26fd3d475d656",
+          "revisionTime": "2019-06-24T11:05:17Z"
+        },
+      {
+        "checksumSHA1": "g8yM1TRZyIjXtopiqbslzgLqtM0=",
+        "path": "github.com/go-logfmt/logfmt",
+        "revision": "07c9b44f60d7ffdfb7d8efe1ad539965737836dc",
+        "revisionTime": "2018-11-22T01:56:15Z"
+      },
+      {
 			"checksumSHA1": "gxV/cPPLkByTdY8y172t7v4qcZA=",
 			"path": "github.com/go-ole/go-ole",
 			"revision": "a41e3c4b706f6ae8dfbff342b06e40fa4d2d0506",
@@ -274,6 +286,12 @@
 			"tree": true
 		},
 		{
+          "checksumSHA1": "abKzFXAn0KDr5U+JON1ZgJ2lUtU=",
+          "path": "github.com/kr/logfmt",
+          "revision": "b84e30acd515aadc4b783ad4ff83aff3299bdfe0",
+          "revisionTime": "2014-02-26T03:06:59Z"
+        },
+      {
 			"checksumSHA1": "7hln62oZPZmyqEmgXaybf9WxQ7A=",
 			"path": "github.com/maruel/panicparse/stack",
 			"revision": "ad661195ed0e88491e0f14be6613304e3b1141d6",
@@ -953,5 +971,5 @@
 			"revisionTime": "2017-08-11T01:42:03Z"
 		}
 	],
-	"rootPath": "github.com/ethereum/go-ethereum"
+  "rootPath": "geth-timing"
 }
