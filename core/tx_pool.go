@@ -19,6 +19,7 @@ package core
 import (
 	"errors"
 	"fmt"
+	"geth-timing/log2"
 	"math"
 	"math/big"
 	"sort"
@@ -713,6 +714,8 @@ func (pool *TxPool) add(tx *types.Transaction, local bool) (bool, error) {
 //
 // Note, this method assumes the pool lock is held!
 func (pool *TxPool) enqueueTx(hash common.Hash, tx *types.Transaction) (bool, error) {
+	_ = log2.Record(map[string]interface{}{"Type": "NewTransaction", "TransactionHash": hash})
+
 	// Try to insert the transaction into the future queue
 	from, _ := types.Sender(pool.signer, tx) // already validated
 	if pool.queue[from] == nil {
