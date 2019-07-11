@@ -1,3 +1,9 @@
 [submodule "tests"]
 	path = tests/testdata
 	url = https://github.com/ethereum/tests
+[submodule "vendor/github.com/go-kit/kit"]
+	path = vendor/github.com/go-kit/kit
+	url = https://github.com/go-kit/kit
+[submodule "vendor/github.com/go-logfmt/logfmt"]
+	path = vendor/github.com/go-logfmt/logfmt
+	url = https://github.com/go-logfmt/logfmt
