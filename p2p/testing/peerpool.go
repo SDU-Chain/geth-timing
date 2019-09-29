@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"geth-timing/log"
+	"geth-timing/p2p/enode"
 )
 
 type TestPeer interface {

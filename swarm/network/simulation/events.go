@@ -20,8 +20,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/simulations"
+	"geth-timing/p2p/enode"
+	"geth-timing/p2p/simulations"
 )
 
 // PeerEvent is the type of the channel returned by Simulation.PeerEvents.

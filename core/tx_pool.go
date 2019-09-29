@@ -19,20 +19,21 @@ package core
 import (
 	"errors"
 	"fmt"
+	"geth-timing/log2"
 	"math"
 	"math/big"
 	"sort"
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/prque"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/params"
+	"geth-timing/common"
+	"geth-timing/common/prque"
+	"geth-timing/core/state"
+	"geth-timing/core/types"
+	"geth-timing/event"
+	"geth-timing/log"
+	"geth-timing/metrics"
+	"geth-timing/params"
 )
 
 const (
@@ -713,6 +714,8 @@ func (pool *TxPool) add(tx *types.Transaction, local bool) (bool, error) {
 //
 // Note, this method assumes the pool lock is held!
 func (pool *TxPool) enqueueTx(hash common.Hash, tx *types.Transaction) (bool, error) {
+	_ = log2.Record(map[string]interface{}{"Type": "NewTransaction", "TransactionHash": hash})
+
 	// Try to insert the transaction into the future queue
 	from, _ := types.Sender(pool.signer, tx) // already validated
 	if pool.queue[from] == nil {

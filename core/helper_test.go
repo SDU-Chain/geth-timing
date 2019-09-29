@@ -19,9 +19,9 @@ package core
 import (
 	"container/list"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/event"
+	"geth-timing/core/types"
+	"geth-timing/ethdb"
+	"geth-timing/event"
 )
 
 // Implement our EthTest Manager

@@ -28,11 +28,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	ch "github.com/ethereum/go-ethereum/swarm/chunk"
-	"github.com/ethereum/go-ethereum/swarm/log"
-	"github.com/ethereum/go-ethereum/swarm/storage/mock/mem"
 	ldberrors "github.com/syndtr/goleveldb/leveldb/errors"
+	"geth-timing/common"
+	ch "geth-timing/swarm/chunk"
+	"geth-timing/swarm/log"
+	"geth-timing/swarm/storage/mock/mem"
 )
 
 type testDbStore struct {

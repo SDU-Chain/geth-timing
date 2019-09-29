@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/event"
+	"geth-timing/accounts"
+	"geth-timing/common"
+	"geth-timing/event"
 )
 
 var testSigData = make([]byte, 32)

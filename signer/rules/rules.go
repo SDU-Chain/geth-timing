@@ -22,13 +22,13 @@ import (
 	"os"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/signer/core"
-	"github.com/ethereum/go-ethereum/signer/rules/deps"
-	"github.com/ethereum/go-ethereum/signer/storage"
 	"github.com/robertkrimen/otto"
+	"geth-timing/common"
+	"geth-timing/internal/ethapi"
+	"geth-timing/log"
+	"geth-timing/signer/core"
+	"geth-timing/signer/rules/deps"
+	"geth-timing/signer/storage"
 )
 
 var (

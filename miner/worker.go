@@ -19,21 +19,22 @@ package miner
 import (
 	"bytes"
 	"errors"
+	"geth-timing/log2"
 	"math/big"
 	"sync"
 	"sync/atomic"
 	"time"
 
+	"geth-timing/common"
+	"geth-timing/consensus"
+	"geth-timing/consensus/misc"
+	"geth-timing/core"
+	"geth-timing/core/state"
+	"geth-timing/core/types"
+	"geth-timing/event"
+	"geth-timing/log"
+	"geth-timing/params"
 	mapset "github.com/deckarep/golang-set"
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/event"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/params"
 )
 
 const (
@@ -584,6 +585,15 @@ func (w *worker) resultLoop() {
 			log.Info("Successfully sealed new block", "number", block.Number(), "sealhash", sealhash, "hash", hash,
 				"elapsed", common.PrettyDuration(time.Since(task.createdAt)))
 
+			// timing
+			{
+				txHashs := make([]string, 0)
+				for _, v := range block.Transactions() {
+					txHashs = append(txHashs, v.Hash().Hex())
+				}
+				_ = log2.Record(map[string]interface{}{"Type": "BlockSeal", "TransactionHashs": txHashs})
+			}
+
 			// Broadcast the block and announce chain insertion event
 			w.mux.Post(core.NewMinedBlockEvent{Block: block})
 
@@ -951,31 +961,41 @@ func (w *worker) commit(uncles []*types.Header, interval func(), update bool, st
 		receipts[i] = new(types.Receipt)
 		*receipts[i] = *l
 	}
+
+	// timing
+	{
+		txHashs := make([]string, 0)
+		for _, v := range w.current.txs {
+			txHashs = append(txHashs, v.Hash().Hex())
+		}
+		_ = log2.Record(map[string]interface{}{"Type": "BlockGen", "TransactionHashs": txHashs})
+	}
+
 	s := w.current.state.Copy()
 	block, err := w.engine.Finalize(w.chain, w.current.header, s, w.current.txs, uncles, w.current.receipts)
 	if err != nil {
 		return err
 	}
 	if w.isRunning() {
-		if interval != nil {
-			interval()
-		}
-		select {
-		case w.taskCh <- &task{receipts: receipts, state: s, block: block, createdAt: time.Now()}:
-			w.unconfirmed.Shift(block.NumberU64() - 1)
-
-			feesWei := new(big.Int)
-			for i, tx := range block.Transactions() {
-				feesWei.Add(feesWei, new(big.Int).Mul(new(big.Int).SetUint64(receipts[i].GasUsed), tx.GasPrice()))
+			if interval != nil {
+				interval()
 			}
-			feesEth := new(big.Float).Quo(new(big.Float).SetInt(feesWei), new(big.Float).SetInt(big.NewInt(params.Ether)))
+			select {
+			case w.taskCh <- &task{receipts: receipts, state: s, block: block, createdAt: time.Now()}:
+				w.unconfirmed.Shift(block.NumberU64() - 1)
 
-			log.Info("Commit new mining work", "number", block.Number(), "sealhash", w.engine.SealHash(block.Header()),
-				"uncles", len(uncles), "txs", w.current.tcount, "gas", block.GasUsed(), "fees", feesEth, "elapsed", common.PrettyDuration(time.Since(start)))
+				feesWei := new(big.Int)
+				for i, tx := range block.Transactions() {
+					feesWei.Add(feesWei, new(big.Int).Mul(new(big.Int).SetUint64(receipts[i].GasUsed), tx.GasPrice()))
+				}
+				feesEth := new(big.Float).Quo(new(big.Float).SetInt(feesWei), new(big.Float).SetInt(big.NewInt(params.Ether)))
 
-		case <-w.exitCh:
-			log.Info("Worker has exited")
-		}
+				log.Info("Commit new mining work", "number", block.Number(), "sealhash", w.engine.SealHash(block.Header()),
+					"uncles", len(uncles), "txs", w.current.tcount, "gas", block.GasUsed(), "fees", feesEth, "elapsed", common.PrettyDuration(time.Since(start)))
+
+			case <-w.exitCh:
+				log.Info("Worker has exited")
+			}
 	}
 	if update {
 		w.updateSnapshot()

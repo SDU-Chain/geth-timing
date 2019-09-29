@@ -29,10 +29,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/log"
-	swarm "github.com/ethereum/go-ethereum/swarm/api/client"
+	"geth-timing/log"
+	swarm "geth-timing/swarm/api/client"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
+	"geth-timing/cmd/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -32,13 +32,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/swarm/api"
-	"github.com/ethereum/go-ethereum/swarm/api/client"
-	"github.com/ethereum/go-ethereum/swarm/spancontext"
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/pborman/uuid"
+	"geth-timing/log"
+	"geth-timing/metrics"
+	"geth-timing/swarm/api"
+	"geth-timing/swarm/api/client"
+	"geth-timing/swarm/spancontext"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

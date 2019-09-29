@@ -28,14 +28,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/mclock"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p"
-	"github.com/ethereum/go-ethereum/p2p/discv5"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/rlp"
+	"geth-timing/common/mclock"
+	"geth-timing/crypto"
+	"geth-timing/ethdb"
+	"geth-timing/log"
+	"geth-timing/p2p"
+	"geth-timing/p2p/discv5"
+	"geth-timing/p2p/enode"
+	"geth-timing/rlp"
 )
 
 const (

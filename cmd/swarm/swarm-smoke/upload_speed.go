@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/swarm/testutil"
+	"geth-timing/log"
+	"geth-timing/metrics"
+	"geth-timing/swarm/testutil"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

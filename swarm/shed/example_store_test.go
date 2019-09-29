@@ -26,9 +26,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/ethereum/go-ethereum/swarm/shed"
-	"github.com/ethereum/go-ethereum/swarm/storage"
 	"github.com/syndtr/goleveldb/leveldb"
+	"geth-timing/swarm/shed"
+	"geth-timing/swarm/storage"
 )
 
 // Store holds fields and indexes (including their encoding functions)

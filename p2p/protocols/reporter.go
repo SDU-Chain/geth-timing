@@ -20,8 +20,8 @@ import (
 	"encoding/binary"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
+	"geth-timing/log"
+	"geth-timing/metrics"
 
 	"github.com/syndtr/goleveldb/leveldb"
 )

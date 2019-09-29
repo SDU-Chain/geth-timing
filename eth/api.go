@@ -28,17 +28,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/core"
-	"github.com/ethereum/go-ethereum/core/rawdb"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/internal/ethapi"
-	"github.com/ethereum/go-ethereum/params"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/ethereum/go-ethereum/trie"
+	"geth-timing/common"
+	"geth-timing/common/hexutil"
+	"geth-timing/core"
+	"geth-timing/core/rawdb"
+	"geth-timing/core/state"
+	"geth-timing/core/types"
+	"geth-timing/internal/ethapi"
+	"geth-timing/params"
+	"geth-timing/rlp"
+	"geth-timing/rpc"
+	"geth-timing/trie"
 )
 
 // PublicEthereumAPI provides an API to access Ethereum full node-related

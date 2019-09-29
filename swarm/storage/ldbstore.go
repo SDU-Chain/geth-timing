@@ -34,11 +34,11 @@ import (
 	"io/ioutil"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/ethereum/go-ethereum/swarm/log"
-	"github.com/ethereum/go-ethereum/swarm/storage/mock"
 	"github.com/syndtr/goleveldb/leveldb"
+	"geth-timing/metrics"
+	"geth-timing/rlp"
+	"geth-timing/swarm/log"
+	"geth-timing/swarm/storage/mock"
 )
 
 const (

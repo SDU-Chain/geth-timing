@@ -23,10 +23,10 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/tests"
+	"geth-timing/core/state"
+	"geth-timing/core/vm"
+	"geth-timing/log"
+	"geth-timing/tests"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

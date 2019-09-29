@@ -6,8 +6,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"geth-timing/common"
+	"geth-timing/common/hexutil"
 )
 
 var _ = (*logMarshaling)(nil)

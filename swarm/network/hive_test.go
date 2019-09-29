@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	p2ptest "github.com/ethereum/go-ethereum/p2p/testing"
-	"github.com/ethereum/go-ethereum/swarm/state"
+	p2ptest "geth-timing/p2p/testing"
+	"geth-timing/swarm/state"
 )
 
 func newHiveTester(t *testing.T, params *HiveParams, n int, store state.Store) (*bzzTester, *Hive) {

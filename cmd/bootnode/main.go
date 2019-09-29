@@ -24,14 +24,14 @@ import (
 	"net"
 	"os"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/discv5"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/nat"
-	"github.com/ethereum/go-ethereum/p2p/netutil"
+	"geth-timing/cmd/utils"
+	"geth-timing/crypto"
+	"geth-timing/log"
+	"geth-timing/p2p/discover"
+	"geth-timing/p2p/discv5"
+	"geth-timing/p2p/enode"
+	"geth-timing/p2p/nat"
+	"geth-timing/p2p/netutil"
 )
 
 func main() {

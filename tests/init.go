@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/ethereum/go-ethereum/params"
+	"geth-timing/params"
 )
 
 // Forks table defines supported forks and their chain config.

@@ -20,8 +20,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/crypto"
+	"geth-timing/core/types"
+	"geth-timing/crypto"
 )
 
 // Tests that transactions can be added to strict lists and list contents and

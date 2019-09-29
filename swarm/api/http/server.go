@@ -35,13 +35,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/swarm/api"
-	"github.com/ethereum/go-ethereum/swarm/log"
-	"github.com/ethereum/go-ethereum/swarm/storage"
-	"github.com/ethereum/go-ethereum/swarm/storage/feed"
 	"github.com/rs/cors"
+	"geth-timing/common"
+	"geth-timing/metrics"
+	"geth-timing/swarm/api"
+	"geth-timing/swarm/log"
+	"geth-timing/swarm/storage"
+	"geth-timing/swarm/storage/feed"
 )
 
 var (

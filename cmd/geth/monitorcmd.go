@@ -25,10 +25,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/node"
-	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/gizak/termui"
+	"geth-timing/cmd/utils"
+	"geth-timing/node"
+	"geth-timing/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -21,11 +21,11 @@ import (
 	"encoding/json"
 	"sort"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/ethereum/go-ethereum/params"
 	lru "github.com/hashicorp/golang-lru"
+	"geth-timing/common"
+	"geth-timing/core/types"
+	"geth-timing/ethdb"
+	"geth-timing/params"
 )
 
 // Vote represents a single vote that an authorized signer made to modify the

@@ -24,8 +24,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
-	"github.com/ethereum/go-ethereum/core/vm"
+	"geth-timing/cmd/utils"
+	"geth-timing/core/vm"
 )
 
 func TestState(t *testing.T) {

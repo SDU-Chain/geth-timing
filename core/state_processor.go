@@ -17,14 +17,16 @@
 package core
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/consensus"
-	"github.com/ethereum/go-ethereum/consensus/misc"
-	"github.com/ethereum/go-ethereum/core/state"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/core/vm"
-	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/params"
+	"encoding/hex"
+	"geth-timing/common"
+	"geth-timing/consensus"
+	"geth-timing/consensus/misc"
+	"geth-timing/core/state"
+	"geth-timing/core/types"
+	"geth-timing/core/vm"
+	"geth-timing/crypto"
+	"geth-timing/log2"
+	"geth-timing/params"
 )
 
 // StateProcessor is a basic Processor, which takes care of transitioning
@@ -86,6 +88,8 @@ func (p *StateProcessor) Process(block *types.Block, statedb *state.StateDB, cfg
 // for the transaction, gas used and an error if the transaction failed,
 // indicating the block was invalid.
 func ApplyTransaction(config *params.ChainConfig, bc ChainContext, author *common.Address, gp *GasPool, statedb *state.StateDB, header *types.Header, tx *types.Transaction, usedGas *uint64, cfg vm.Config) (*types.Receipt, uint64, error) {
+	_ = log2.Record(map[string]interface{}{"Type": "TransactionBegin", "TransactionHash": tx.Hash()})
+
 	msg, err := tx.AsMessage(types.MakeSigner(config, header.Number))
 	if err != nil {
 		return nil, 0, err
@@ -121,6 +125,23 @@ func ApplyTransaction(config *params.ChainConfig, bc ChainContext, author *commo
 	// Set the receipt logs and create a bloom for filtering
 	receipt.Logs = statedb.GetLogs(tx.Hash())
 	receipt.Bloom = types.CreateBloom(types.Receipts{receipt})
+
+	{
+		loggingUnit := map[string]interface{}{
+			"Type":            "TransactionEnd",
+			"TransactionHash": tx.Hash(),
+			"From":            msg.From().Hex(),
+			"To":              "",
+			"DataFirst4Byte":  hex.EncodeToString(msg.Data()[0:4]),
+		}
+		// msg.To could be nil
+		to := msg.To()
+		if to != nil {
+			loggingUnit["To"] = to.Hex()
+		}
+
+		_ = log2.Record(loggingUnit)
+	}
 
 	return receipt, gas, err
 }

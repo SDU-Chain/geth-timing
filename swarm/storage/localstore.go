@@ -21,9 +21,9 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/swarm/log"
-	"github.com/ethereum/go-ethereum/swarm/storage/mock"
+	"geth-timing/metrics"
+	"geth-timing/swarm/log"
+	"geth-timing/swarm/storage/mock"
 )
 
 type LocalStoreParams struct {

@@ -22,10 +22,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ethereum/go-ethereum/log"
-	"github.com/ethereum/go-ethereum/metrics"
-	"github.com/ethereum/go-ethereum/swarm/testutil"
 	"github.com/pborman/uuid"
+	"geth-timing/log"
+	"geth-timing/metrics"
+	"geth-timing/swarm/testutil"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

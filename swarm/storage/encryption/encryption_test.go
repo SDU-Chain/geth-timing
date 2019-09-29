@@ -20,9 +20,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/ethereum/go-ethereum/swarm/testutil"
+	"geth-timing/common"
+	"geth-timing/common/hexutil"
+	"geth-timing/swarm/testutil"
 	"golang.org/x/crypto/sha3"
 )
 
