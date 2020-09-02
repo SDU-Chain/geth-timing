@@ -1,6 +1,8 @@
 module github.com/ethereum/go-ethereum
 
-go 1.13
+go 1.14
+
+replace github.com/ethereum/go-ethereum => ./
 
 require (
 	github.com/Azure/azure-pipeline-go v0.2.2 // indirect
