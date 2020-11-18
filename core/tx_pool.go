@@ -18,6 +18,7 @@ package core
 
 import (
 	"errors"
+	"github.com/ethereum/go-ethereum/experiment"
 	"math"
 	"math/big"
 	"sort"
@@ -647,6 +648,11 @@ func (pool *TxPool) add(tx *types.Transaction, local bool) (replaced bool, err e
 //
 // Note, this method assumes the pool lock is held!
 func (pool *TxPool) enqueueTx(hash common.Hash, tx *types.Transaction) (bool, error) {
+	// experiment mod modification
+	{
+		_ = experiment.Record(map[string]interface{}{"Type": "NewTransaction", "TransactionHash": hash})
+	}
+
 	// Try to insert the transaction into the future queue
 	from, _ := types.Sender(pool.signer, tx) // already validated
 	if pool.queue[from] == nil {

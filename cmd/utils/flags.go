@@ -718,6 +718,13 @@ var (
 		Usage: "External EVM configuration (default = built-in interpreter)",
 		Value: "",
 	}
+
+	// experiment mod modification
+	ModExperimentOutputFlag = cli.StringFlag{
+		Name:  "experiment.output",
+		Usage: "The output file of experiment log.",
+		Value: "",
+	}
 )
 
 // MakeDataDir retrieves the currently requested data directory, terminating

@@ -17,6 +17,7 @@
 package core
 
 import (
+	"encoding/hex"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/consensus"
 	"github.com/ethereum/go-ethereum/consensus/misc"
@@ -24,6 +25,7 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/core/vm"
 	"github.com/ethereum/go-ethereum/crypto"
+	"github.com/ethereum/go-ethereum/experiment"
 	"github.com/ethereum/go-ethereum/params"
 )
 
@@ -86,6 +88,11 @@ func (p *StateProcessor) Process(block *types.Block, statedb *state.StateDB, cfg
 // for the transaction, gas used and an error if the transaction failed,
 // indicating the block was invalid.
 func ApplyTransaction(config *params.ChainConfig, bc ChainContext, author *common.Address, gp *GasPool, statedb *state.StateDB, header *types.Header, tx *types.Transaction, usedGas *uint64, cfg vm.Config) (*types.Receipt, error) {
+	// experiment mod modification
+	{
+		_ = experiment.Record(map[string]interface{}{"Type": "TransactionBegin", "TransactionHash": tx.Hash()})
+	}
+
 	msg, err := tx.AsMessage(types.MakeSigner(config, header.Number))
 	if err != nil {
 		return nil, err
@@ -124,6 +131,24 @@ func ApplyTransaction(config *params.ChainConfig, bc ChainContext, author *commo
 	receipt.BlockHash = statedb.BlockHash()
 	receipt.BlockNumber = header.Number
 	receipt.TransactionIndex = uint(statedb.TxIndex())
+
+	// experiment mod modification
+	{
+		loggingUnit := map[string]interface{}{
+			"Type":            "TransactionEnd",
+			"TransactionHash": tx.Hash(),
+			"From":            msg.From().Hex(),
+			"To":              "",
+			"DataFirst4Byte":  hex.EncodeToString(msg.Data()[0:4]),
+		}
+		// msg.To could be nil
+		to := msg.To()
+		if to != nil {
+			loggingUnit["To"] = to.Hex()
+		}
+
+		_ = experiment.Record(loggingUnit)
+	}
 
 	return receipt, err
 }

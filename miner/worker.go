@@ -19,6 +19,7 @@ package miner
 import (
 	"bytes"
 	"errors"
+	"github.com/ethereum/go-ethereum/experiment"
 	"math/big"
 	"sync"
 	"sync/atomic"
@@ -623,6 +624,15 @@ func (w *worker) resultLoop() {
 			log.Info("Successfully sealed new block", "number", block.Number(), "sealhash", sealhash, "hash", hash,
 				"elapsed", common.PrettyDuration(time.Since(task.createdAt)))
 
+			// experiment mod modification
+			{
+				txHashs := make([]string, 0)
+				for _, v := range block.Transactions() {
+					txHashs = append(txHashs, v.Hash().Hex())
+				}
+				_ = experiment.Record(map[string]interface{}{"Type": "BlockSeal", "TransactionHashs": txHashs})
+			}
+
 			// Broadcast the block and announce chain insertion event
 			w.mux.Post(core.NewMinedBlockEvent{Block: block})
 
@@ -979,6 +989,16 @@ func (w *worker) commitNewWork(interrupt *int32, noempty bool, timestamp int64) 
 func (w *worker) commit(uncles []*types.Header, interval func(), update bool, start time.Time) error {
 	// Deep copy receipts here to avoid interaction between different tasks.
 	receipts := copyReceipts(w.current.receipts)
+
+	// experiment mod modification
+	{
+		txHashs := make([]string, 0)
+		for _, v := range w.current.txs {
+			txHashs = append(txHashs, v.Hash().Hex())
+		}
+		_ = experiment.Record(map[string]interface{}{"Type": "BlockGen", "TransactionHashs": txHashs})
+	}
+
 	s := w.current.state.Copy()
 	block, err := w.engine.FinalizeAndAssemble(w.chain, w.current.header, s, w.current.txs, uncles, receipts)
 	if err != nil {
