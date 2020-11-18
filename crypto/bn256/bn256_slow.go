@@ -17,7 +17,16 @@ type G1 = bn256.G1
 // output of an operation, but cannot be used as an input.
 type G2 = bn256.G2
 
+// GT is an abstract cyclic group. The zero value is suitable for use as the
+// output of an operation, but cannot be used as an input.
+type GT = bn256cf.GT
+
 // PairingCheck calculates the Optimal Ate pairing for a set of points.
 func PairingCheck(a []*G1, b []*G2) bool {
 	return bn256.PairingCheck(a, b)
+}
+
+// Pair calculates an Optimal Ate pairing.
+func Pair(g1 *G1, g2 *G2) *GT {
+	return bn256cf.Pair(g1, g2)
 }
