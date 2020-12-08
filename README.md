@@ -2,7 +2,7 @@
 
 ## Feature
 - Add log feature. The following event can be recorded separately: when a block is created, when a block is sealed, when a transaction is being executed. It is useful to track the correct time cost for executing a transaction, without consensus time or network latency.
-- The gas limit will never change. It will always keep the current block gas limit, so just specify a large gas limit like `0x1fffffffffffff` in the genesis block file and don't need to worry about the gas. 
+- The gas limit will never change. It will always keep the current block gas limit, so just specify a large gas limit like `0x1fffffffffffff` in the genesis block file and don't need to worry about the gas. Note that, although the gas is almost unlimited, the execution time of a transaction can't be too large, still. In short, the execution time should be less than 3 seconds and the block generation interval, whichever is smaller.
 - Add full implementation of bn256 curve as precompiled contracts. The original ethereum client only support a subset of bn256 curve which is specially designed for zk-SNARK only, which is not suitable for other kind of experiments. 
 
 ## Compile
